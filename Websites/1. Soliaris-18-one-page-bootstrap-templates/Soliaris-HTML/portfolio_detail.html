@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no" /> 
+            <link rel="shortcut icon" href="favicon.ico"/> 
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css">
+            <link href="css/fontello.css" rel="stylesheet" type="text/css"/>
+            <link href="css/animate.css" rel="stylesheet" type="text/css"/>     
+            <link href="css/style.css" rel="stylesheet" type="text/css"/>     
+      <title>SOLIARIS</title>
+  </head>
+  
+<body class="page-style-12 color-style-1">
+    
+    <style id="dynamic-css">
+    
+   </style>
+  
+   <div class="color-piker">
+      <div class="piker-open">
+         <i class="icon-sliders"></i> 
+      </div>
+         <div class="color-wrapper">
+          <h4 class="caption-5 title">Choose your color theme:</h4>
+           <input value="ffa800" class="jscolor" onchange="updateCss(this.jscolor)" id="jscolorid" />
+         </div>
+   </div> 
+    
+     <div class="preloader">
+         <div class="sk-cube-grid selected">
+          <div class="sk-cube sk-cube1"></div>
+          <div class="sk-cube sk-cube2"></div>
+          <div class="sk-cube sk-cube3"></div>
+          <div class="sk-cube sk-cube4"></div>
+          <div class="sk-cube sk-cube5"></div>
+          <div class="sk-cube sk-cube6"></div>
+          <div class="sk-cube sk-cube7"></div>
+          <div class="sk-cube sk-cube8"></div>
+          <div class="sk-cube sk-cube9"></div>
+        </div>
+    </div>
+    
+     <header class="header header-style-2 pos-f-t dark-mobile">
+       <div class="container-custome">
+         <nav class="navbar" role="navigation">
+			<button class="navbar-toggler pull-xs-right mobile-menu col-style-2" type="button" data-toggle="collapse" data-target="#mainNavbarCollapse">
+			    <i class="vertical-align"></i>
+			</button>
+			<a class="navbar-brand vertical-align" href="#">
+			  <img src="img/logo.png" alt="">  
+			</a>
+			  <div class="nav-list" id="mainNavbarCollapse">
+				<ul class="nav navbar-nav pull-lg-right">
+					<li class="nav-item drop-link">
+						<a class="nav-link" href="#">Home</a>
+						<i class="icon-down-open-big icon"></i>
+						  <ul class="dropdown-menu">
+						      <li><a href="home_v10.html">Home 1</a></li>
+						      <li><a href="home_v11.html">Home 2</a></li>
+						      <li><a href="home_v12.html">Home 3</a></li>
+						      <li><a href="home_v13.html">Home 4</a></li>
+						      <li><a href="home_v25.html">Home 5</a></li>
+						      <li><a href="home_v30.html">Home 6</a></li>
+						      <li><a href="home_v32.html">Home 7</a></li>
+						  </ul>
+					</li>
+					<li class="nav-item drop-link">
+                        <a class="nav-link" href="#">About</a>
+                        <i class="icon-down-open-big icon"></i>
+						  <ul class="dropdown-menu">
+						      <li><a href="about_1.html">About 1</a></li>
+						      <li><a href="about_2.html">About 2</a></li>
+						  </ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="service.html">Services</a>
+					</li>
+					<li class="nav-item drop-link">
+                        <a class="nav-link active" href="#">Portfolio</a>
+                        <i class="icon-down-open-big icon"></i>
+						  <ul class="dropdown-menu">
+						      <li><a href="portfolio_1.html">Portfolio 1</a></li>
+						      <li><a href="portfolio_2.html">Portfolio 2</a></li>
+						      <li><a href="portfolio_3.html">Portfolio 3</a></li>
+						      <li><a href="portfolio_detail.html">Portfolio detail</a></li>
+						  </ul>
+					</li>
+					<li class="nav-item drop-link">
+                        <a class="nav-link" href="#">Blog</a>
+                        <i class="icon-down-open-big icon"></i>
+						  <ul class="dropdown-menu">
+						      <li><a href="blog.html">Blog</a></li>
+						      <li><a href="blog_post.html">Blog detail</a></li>
+						  </ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+                  </ul>
+			  </div>
+	     </nav>
+	   </div>   
+	 </header>
+    
+     <section class="full-height-baner">
+        <div class="bg ready data-jarallax" data-jarallax="15" style="background-image:url(img/portfolio/detail_main_img.jpg)"><div class="hold-layer-2"></div></div> 
+           <div class="container">
+             <div class="empty-sp-lg-0 empty-sp-md-130 empty-sp-sm-100 empty-sp-xs-100"></div>
+              <div class="vertical-align full no-align-md">
+                <div class="main-detail-baner">
+                  <div class="empty-sp-lg-100 empty-sp-md-80 empty-sp-sm-80 empty-sp-xs-80"></div>   
+                    <div class="bg" style="background-image:url(img/portfolio/detail_slider_img.jpg)"><div class="hold-layer-2"></div></div>
+                    <div class="title-style-4 center">
+                      <h1 class="caption-1 color-1">lovely view</h1>
+                       <div class="empty-sp-sm-20 empty-sp-xs-20"></div>
+                        <div class="title-separator"></div> 
+                        <div class="empty-sp-sm-25 empty-sp-xs-25"></div>
+                         <div class="simple-text size-2 color-1">
+                             <p>Proin ut lorem tempus, suscipit arcu vitae, sodales odio. Duis make something realy good elementum</p>
+                         </div>
+                    </div>
+                  <div class="empty-sp-lg-100 empty-sp-md-80 empty-sp-sm-80 empty-sp-xs-80"></div>    
+                </div>  
+              </div>
+              <div class="empty-sp-lg-0 empty-sp-md-70 empty-sp-sm-70 empty-sp-xs-50"></div>
+           </div>
+           <a href="#" class="portfolio-arrow arrow-prev">
+               <div class="title">
+                <div class="sub-caption">nature</div>
+                <h5 class="caption-5 color-1">Nature photo</h5>
+               </div>
+                <div class="empty-sp-sm-20 empty-sp-xs-20"></div>    
+               <span class="arrow-line"><i class="icon-left-open-big"></i><b class="line"></b></span>
+               <div class="empty-sp-sm-20 empty-sp-xs-20"></div>  
+               <span class="image">
+                  <img src="img/portfolio/arrow_img.jpg" alt=""> 
+               </span>
+           </a>
+           <a href="#" class="portfolio-arrow arrow-next">
+               <div class="title">
+                <div class="sub-caption">nature</div>
+                <h5 class="caption-5 color-1">Nature photo</h5>
+               </div>
+                <div class="empty-sp-sm-20 empty-sp-xs-20"></div>    
+               <span class="arrow-line"><i class="icon-right-open-big"></i><b class="line"></b></span>
+               <div class="empty-sp-sm-20 empty-sp-xs-20"></div>  
+               <span class="image">
+                  <img src="img/portfolio/arrow_img.jpg" alt=""> 
+               </span>
+           </a>
+     </section>
+     
+     <section class="section">
+       <div class="empty-sp-md-80 empty-sp-sm-50 empty-sp-xs-50"></div> 
+        <div class="container">
+            <div class="portfolio-desc">
+               <div class="row">
+                   <div class="col-lg-10 offset-lg-1 col-md-12">
+                       <div class="row">
+                           <div class="col-lg-8 col-md-7 wow fadeInUp">
+                               <div class="title-style-4">
+                                  <h4 class="caption-4 color-3">Detail information about projects</h4>
+                                   <div class="empty-sp-sm-15 empty-sp-xs-15"></div>
+                                    <div class="title-separator lg"></div> 
+                                    <div class="empty-sp-sm-25 empty-sp-xs-25"></div>
+                                     <div class="simple-text size-1 color-3">
+                                         <p>Quisque eu sem id mi mattis maximus vitae at ipsum. Donec facilisis, augue vitae euismod condimentum, odio tortor pulvinar sapien, a gravida nisl purus eleifend elit. Maecenas condimentum nulla quis bibendum scelerisque tortor metus, sodales pretium urna</p>
+                                     </div>
+                                </div>
+                                <div class="empty-sp-md-0 empty-sp-sm-50 empty-sp-xs-30"></div> 
+                           </div>
+                           <div class="col-lg-4 col-md-5 wow fadeInUp">
+                                 <ul class="author-info">
+                                     <li>
+                                         <h6 class="caption-6 lg">CATEGORY:</h6>
+                                         <span class="sub-caption">design, branding, art</span>
+                                     </li>
+                                     <li>
+                                         <h6 class="caption-6 lg">DATE:</h6>
+                                         <span class="sub-caption">June 15, 2016</span>
+                                     </li>
+                                     <li>
+                                         <h6 class="caption-6 lg">CLIENT:</h6>
+                                         <span class="sub-caption">Oleksandra Cupper</span>
+                                     </li>
+                                     <li>
+                                         <h6 class="caption-6 lg">ADDRESS: </h6>
+                                         <span class="sub-caption"><a href="#">soliaris.com</a></span>
+                                     </li>
+                                 </ul>  
+                           </div>
+                       </div>
+                       <div class="empty-sp-sm-50 empty-sp-xs-30"></div> 
+                   </div>
+               </div>
+               <div class="row">
+                   <div class="col-md-12 wow fadeInUp">
+                       <div class="image">
+                           <img src="img/portfolio/det_img_1.jpg" alt="" class="resp-img">
+                       </div>
+                   </div>
+                   <div class="empty-sp-sm-30 empty-sp-xs-30"></div>
+               </div> 
+               <div class="row">
+                   <div class="col-md-4 wow fadeInUp">
+                      <div class="image">
+                           <img src="img/portfolio/det_img_2.jpg" alt="" class="resp-img">
+                      </div>
+                      <div class="empty-sp-sm-0 empty-sp-md-0 empty-sp-sm-30 empty-sp-xs-30"></div>  
+                   </div>
+                   <div class="col-md-4 wow fadeInUp">
+                      <div class="image">
+                           <img src="img/portfolio/det_img_3.jpg" alt="" class="resp-img">
+                      </div>
+                      <div class="empty-sp-sm-0 empty-sp-md-0 empty-sp-sm-30 empty-sp-xs-30"></div>  
+                   </div>
+                   <div class="col-md-4 wow fadeInUp">
+                      <div class="image">
+                           <img src="img/portfolio/det_img_4.jpg" alt="" class="resp-img">
+                      </div>  
+                   </div>
+                   <div class="empty-sp-sm-50 empty-sp-xs-50"></div>
+               </div>
+               <div class="row">
+                   <div class="col-lg-10 offset-lg-1 col-md-12 wow fadeInUp">
+                       <div class="title-style-4 center wide">
+                          <h4 class="caption-4 color-3">About work process</h4>
+                           <div class="empty-sp-sm-15 empty-sp-xs-15"></div>
+                            <div class="title-separator lg"></div> 
+                            <div class="empty-sp-sm-25 empty-sp-xs-25"></div>
+                             <div class="simple-text size-1 color-3">
+                                 <p>Quisque eu sem id mi mattis maximus vitae at ipsum. Donec facilisis, augue vitae makes euismod condimentum, odio tortor pulvinar sapien quis bibendum scelerisque somethibg here making this. Quisque et commodo erat, in tincidunt elit. Praesent vulputate urna sit amet molestie placerat. Aenean quam dui, mattis a viverra eu, ornare ac mi. Curabitur hendrerit nibh id nibh lacinia malesuada, aptent</p>
+                             </div>
+                        </div>
+                        <div class="empty-sp-sm-50 empty-sp-xs-50"></div> 
+                   </div>
+               </div>
+                   <div class="col-md-12 wow fadeInUp">
+                      <div class="video-open text-center type-2"> 
+                       <div class="bg" style="background-image:url(img/portfolio/det_img_5.jpg)"><div class="hold-layer-2"></div></div>
+                       <div class="vertical-align full"> 
+                        <div class="play-button model-style-play color-2" data-video="https://www.youtube.com/embed/REqZelREwM8?autoplay=1">
+                            <span>play</span>
+                        </div>
+                       </div>    
+                        <div class="video-item">
+                           <div class="video-wrapper">
+                               <div class="video-iframe"></div>
+                                 <div class="close-video"><img src="img/close_dark.svg" alt=""></div>
+                           </div>
+                        </div>
+                     </div>     
+                   </div> 
+            </div>
+        </div>
+        <div class="empty-sp-lg-130 empty-sp-md-80 empty-sp-sm-50 empty-sp-xs-50"></div> 
+     </section>
+     
+     <section class="section">
+         <div class="container">
+             <div class="row">
+                 <div class="col-lg-5 col-md-5 col-sm-5 col-xs-4 wow fadeInUp">
+                     <a href="#" class="page-nav left">
+                         <div class="image">
+                             <div class="bg" style="background-image:url(img/portfolio/prev_arrow_img.jpg)"></div>
+                         </div>
+                         <div class="title vertical-align">
+                            <span class="sub-caption">previous project</span>
+                            <h4 class="caption-4">Nature photoproject</h4>
+                            <i class="icon-left-open-big icon"></i>
+                         </div>
+                     </a>
+                 </div>
+                 <div class="col-lg-2 col-md-2 col-sm-2 col-xs-4 wow fadeInUp">
+                     <a href="#" class="page-nav">
+                        <div class="vertical-align full">
+                         <span class="all-project"><i class="icon-th"></i></span>
+                        </div>
+                     </a>
+                 </div>
+                 <div class="col-lg-5 col-md-5 col-sm-5 col-xs-4 wow fadeInUp">
+                     <a href="#" class="page-nav right">
+                         <div class="image">
+                             <img src="img/portfolio/next_arrow_img.jpg" alt="">
+                         </div>
+                         <div class="title vertical-align">
+                            <span class="sub-caption">next project</span>
+                            <h4 class="caption-4">People photo</h4>
+                            <i class="icon-right-open-big icon"></i>
+                         </div>
+                     </a>
+                 </div>
+             </div>
+         </div>
+        <div class="empty-sp-lg-130 empty-sp-md-80 empty-sp-sm-50 empty-sp-xs-50"></div>  
+     </section>
+     
+     <section class="section">
+         <div class="container">
+            <div class="row">
+               <div class="swiper-container slide-gutter-15 wow fadeInUp" data-mode="horizontal" data-autoplay="0" data-effect="slide" data-slides-per-view="responsive" data-loop="0" data-speed="800" data-center="0" data-add-slides="4" data-lg-slides="4" data-md-slides="2" data-sm-slides="1" data-xs-slides="1">
+                 <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                       <div class="slide-item">
+                            <div class="image hover-img">
+                               <img src="img/portfolio/det_page_1.jpg" alt="" class="resp-img">
+                                <div class="hold-layer-2"></div> 
+                            </div>
+                             <div class="vertical-align full">
+                                <div class="sub-caption">nature</div>
+                                 <div class="empty-sp-sm-10 empty-sp-xs-10"></div>  
+                                 <h4 class="caption-4 color-1"><a href="#">Nature photo</a></h4>
+                             </div>
+                       </div> 
+                    </div>
+                    <div class="swiper-slide">
+                       <div class="slide-item">
+                            <div class="image hover-img">
+                               <img src="img/portfolio/det_page_2.jpg" alt="" class="resp-img">
+                                <div class="hold-layer-2"></div> 
+                            </div>
+                             <div class="vertical-align full">
+                                <div class="sub-caption">nature</div>
+                                 <div class="empty-sp-sm-10 empty-sp-xs-10"></div>  
+                                 <h4 class="caption-4 color-1"><a href="#">green forest</a></h4>
+                             </div>
+                       </div> 
+                    </div>
+                    <div class="swiper-slide">
+                       <div class="slide-item">
+                            <div class="image hover-img">
+                               <img src="img/portfolio/det_page_3.jpg" alt="" class="resp-img">
+                                <div class="hold-layer-2"></div> 
+                            </div>
+                             <div class="vertical-align full">
+                                <div class="sub-caption">architecture</div>
+                                 <div class="empty-sp-sm-10 empty-sp-xs-10"></div>  
+                                 <h4 class="caption-4 color-1"><a href="#">Nature photo</a></h4>
+                             </div>
+                       </div> 
+                    </div>
+                    <div class="swiper-slide">
+                       <div class="slide-item">
+                             <div class="image hover-img">
+                               <img src="img/portfolio/det_page_4.jpg" alt="" class="resp-img">
+                                <div class="hold-layer-2"></div> 
+                            </div>
+                             <div class="vertical-align full">
+                                <div class="sub-caption">nature</div>
+                                 <div class="empty-sp-sm-10 empty-sp-xs-10"></div>  
+                                 <h4 class="caption-4 color-1"><a href="#">Nature photo</a></h4>
+                             </div>
+                       </div> 
+                    </div>
+                 </div>
+                 <div class="pagination hidden"></div>
+             </div> 
+            </div>
+            <div class="empty-sp-sm-30 empty-sp-xs-30"></div>
+         </div>
+    </section>
+     
+     
+     <footer class="footer-style-2">
+      <div class="empty-sp-md-70 empty-sp-sm-50 empty-sp-xs-50"></div>
+       <div class="container">
+           <div class="row">
+               <div class="col-lg-3 col-sm-6 col-xs-12">
+                   <div class="footer-item">
+                       <div class="logo-footer">
+                          <a href="#"><img src="img/logo.png" alt=""></a>
+                       </div>
+                         <div class="empty-sp-sm-30 empty-sp-xs-20"></div> 
+                          <ul class="footer-address">
+                              <li><p>198 West 21th Street, Suite 721, New York
+5109 Pacific Coast Highway, Los Angeles</p></li>
+                              <li><a href="mailto:">Email: youremail@yourdomain.com</a></li>
+                              <li><a href="tel:">Phone: +88 (0) 101 5682 000</a></li>
+                          </ul>
+                          <div class="empty-sp-sm-10 empty-sp-xs-10"></div> 
+                          <div class="folow type-1">
+                            <a href="#" target="_blank"><i class="icon-facebook"></i></a>
+                            <a href="#" target="_blank"><i class="icon-instagram"></i></a>
+                            <a href="#" target="_blank"><i class="icon-pinterest"></i></a>
+                            <a href="#" target="_blank"><i class="icon-twitter"></i></a>
+                          </div>  
+                   </div>
+                   <div class="empty-sp-md-0 empty-sp-sm-30 empty-sp-xs-50"></div>
+               </div>
+               <div class="col-lg-3 col-sm-6 col-xs-12">
+                   <div class="footer-item">
+                       <h5 class="title caption-5">Recent news</h5>
+                       <div class="empty-sp-sm-30 empty-sp-xs-20"></div>
+                         <div class="recent-mini-link">
+                             <a href="#" class="caption-6 color-1 lg">Donec vel est nec nulla ullamco</a>
+                               <span>Sep 9, 2015</span>
+                         </div>
+                         <div class="recent-mini-link">
+                             <a href="#" class="caption-6 color-1 lg">Ten Ways to Increase Web Traffic</a>
+                               <span>Sep 9, 2015</span>
+                         </div>
+                         <div class="recent-mini-link">
+                             <a href="#" class="caption-6 color-1 lg">Man who groves up stunning</a>
+                               <span>Sep 9, 2015</span>
+                         </div>
+                   </div>
+                   <div class="empty-sp-md-30 empty-sp-sm-30 empty-sp-xs-30"></div>
+               </div> 
+               <div class="col-lg-3 col-sm-6 col-xs-12">
+                   <div class="footer-item">
+                       <h5 class="title caption-5">Instagram</h5>
+                       <div class="empty-sp-sm-30 empty-sp-xs-20"></div>
+                         <div class="footer-instagram">
+                             <a href="#"><img src="img/footer_inst_1.jpg" alt=""></a>
+                             <a href="#"><img src="img/footer_inst_2.jpg" alt=""></a>
+                             <a href="#"><img src="img/footer_inst_3.jpg" alt=""></a>
+                             <a href="#"><img src="img/footer_inst_4.jpg" alt=""></a>
+                             <a href="#"><img src="img/footer_inst_5.jpg" alt=""></a>
+                             <a href="#"><img src="img/footer_inst_6.jpg" alt=""></a>
+                         </div>
+                   </div>
+                   <div class="empty-sp-md-0 empty-sp-sm-20 empty-sp-xs-30"></div>
+               </div>
+               <div class="col-lg-3 col-sm-6 col-xs-12">
+                   <div class="footer-item">
+                       <h5 class="title caption-5">keep in touch</h5>
+                       <div class="empty-sp-sm-20 empty-sp-xs-20"></div>
+                         <form action="#" class="footer-form">
+                             <div class="simple-text size-1 color-1">
+                                 <p>Support online is available 24 hours day, 
+get in touch. so you write to us anytime:</p>
+                             </div>
+                             <div class="empty-sp-sm-15 empty-sp-xs-15"></div>
+                             <div class="input-group input-style-1 color-1 sm">
+                                 <input type="text" placeholder="Enter your name..." name="name" class="form-control" required>
+                             </div>
+                             <div class="empty-sp-sm-20 empty-sp-xs-20"></div>
+                             <div class="input-group input-style-1 color-1 sm">
+                                 <input type="email" placeholder="Enter your mail..." name="name" class="form-control" required>
+                             </div>
+                             <div class="empty-sp-sm-30 empty-sp-xs-20"></div>
+                             <input type="submit" value="subscribe" class="submit">
+                         </form>
+                   </div>
+                   <div class="empty-sp-md-0 empty-sp-sm-20 empty-sp-xs-20"></div>
+               </div> 
+           </div>
+           <div class="empty-sp-lg-50 empty-sp-md-30 empty-sp-sm-20 empty-sp-xs-10"></div>
+           <div class="row">
+               <div class="col-md-12">
+                    <div class="copyright">
+                       <span>© 2016 All rights reserved. Development with <i class="icon-heart"></i> by</span>
+                         <a href="#"> ElectricBlaze</a>
+                    </div>
+               </div>
+           </div>
+           <div class="empty-sp-md-50 empty-sp-md-50 empty-sp-sm-50 empty-sp-xs-20"></div>
+       </div> 
+   </footer>
+
+
+<script>
+	function submitForm() {
+		$.ajax({type:'POST', url:'email-action.php', data:$('#contact-form').serialize(), success: function(response) {
+		   $('.submit').html('send');
+		   $('.thanks-popup').addClass('active');
+		   document.contactform.reset();                                 
+		}});                
+		return false;
+	}	
+</script>                            
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js"></script>	 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.1/isotope.pkgd.min.js"></script>
+<script src="js/jarallax.js"></script>
+<script src="js/jquery.countTo.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/jscolor.js"></script>
+<script src="js/color-piker.js"></script>
+<script src="js/all.js"></script>
+</body>
+</html>	     

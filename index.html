@@ -1,309 +1,1247 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/svl-global.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-    <link rel="stylesheet" href="assets/css/animated-headlines.css">
-    <link rel="stylesheet" href="assets/css/hover-min.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="assets/css/global.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-
-    <title>SVL Global</title>
-    <link rel="icon" href="assets/img/fav.png" type="image/gif">
-  </head>
-  <body>
-    <section class="bg-black top-bar">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col">
-            <nav class="nav divided justify-content-end">
-              <a href="#" class="nav-link">Link 1</a>
-              <a href="#" class="nav-link">Link 2</a>
-              <a href="#" class="nav-link">Link 3</a>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </section>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="assets/img/svl-global-logo.svg" alt="" height="50"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHome" aria-controls="navbarHome" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarHome">
-          <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link active" href="#">Home</a>
-            <a class="nav-item nav-link" href="#">Abouts Us</a>
-            <a class="nav-item nav-link" href="#">Services</a>
-            <a class="nav-item nav-link" href="#">Stake Holders</a>
-            <a class="nav-item nav-link" href="#">Opportunities</a>
-            <a class="nav-item nav-link" href="#">Contact Us</a>
-          </div>
-        </div>
-      </div>
-    </nav>
-    
-    <!-- =======================
-	Main Banner -->
-	<section class="p-0 position-relative height-900-responsive ie-height-800 bg-grad pattern-overlay-1 overflow-hidden">
-		<div class="container d-flex h-100">
-			<div class="row align-self-center w-100">
-				<!-- banner Content -->
-				<div class="col-md-6 mt-md-0 text-white animated fadeInLeft">
-          <h1 class="cd-headline letters rotate-2 display-4">
-              <span>Innovative Futuristic</span>
-              <span class="cd-words-wrapper">
-                <b class="is-visible">Research</b>
-                <b>Development</b>
-              </span>
-            </h1>
-					<p class="lead mb-4 font-weight-normal d-none d-sm-block">Delivering Value to all our Customers with Highest Quality &amp; Transparency by Ensuring Optimized Availability vs Occupancy.</p>
-          
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="assets/css/svl-global.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+<link rel="stylesheet" href="assets/css/animated-headlines.css">
+<link rel="stylesheet" href="assets/css/hover-min.css">
+<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+<link rel="stylesheet" href="assets/css/back-to-top.css">
+<link rel="stylesheet" href="assets/css/global.css">
+<link rel="stylesheet" href="assets/css/styles.css">
+<title>SVL Global</title>
+<link rel="icon" href="assets/img/fav.png" type="image/gif">
+</head>
+<body>
+<!--
+Sign Up Modal
+-->
+<div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="signUpModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+		<div class="modal-content rounded-0 border-2 border-primary">
+		  <div class="modal-header">
+			<h5 class="modal-title" id="signUpModalLabel">Sign Up</h5>
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			  <span aria-hidden="true">&times;</span>
+			</button>
+		  </div>
+		  <div class="modal-body">
+			<nav class="nav justify-content-center social-login a-mx-2 my-2">
+				<a href="#" class="nav-link rounded-circle bg-facebook text-white"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="nav-link rounded-circle bg-google text-white"><i class="fab fa-google"></i></a>
+				<a href="#" class="nav-link rounded-circle bg-grey-200"><i class="fab fa-apple"></i></a>
+				<a href="#" class="nav-link rounded-circle bg-amazon black"><i class="fab fa-amazon"></i></a>
+			</nav>
+			<p class="text-center text-muted">or Sign-Up with</p>
+			<form>
+				<div class="form-group">
+					<label for="" class="sr-only">Name</label>
+					<input type="text" class="form-control" id="" placeholder="Enter your Name">
 				</div>
-				<!-- banner image -->
-				<div class="col-md-6 d-none d-md-block p-0 position-absolute top-0 right-0 align-top align-text-top">
-					<figure class="w-100 ie-height-750">
-						<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1290 1024" style="enable-background:new 0 0 1290 1024;" xml:space="preserve">
-              <g id="XMLID_81_">
-                <defs>
-                <path id="XMLID_3_" d="M1290,0v1024c0,0-229.8-152.2-550-52.9C467.3,1055.7-22.5,927.6,47.8,540C120.4,139.6,17,0,17,0H1290z"/>
-                </defs>
-                <clippath id="XMLID_83_">
-                <use xlink:href="#XMLID_3_"  style="overflow:visible;"/>
-                </clippath>
-                <g style="clip-path:url(#XMLID_83_);">
-                  <!-- Set your 1290px X 1024px image below -->
-                  <image style="overflow:visible;" width="1290" height="1024" id="XMLID_82_" xlink:href="assets/img/10.jpg"  transform="matrix(0.9999 0 0 0.9999 8.063897e-002 6.401104e-002)">
-                  </image>
-                </g>
-              </g>
-            </svg>
-					</figure>
+				<div class="form-group">
+					<label for="" class="sr-only">Enter Email or Phone Number</label>
+					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email or Phone Number">
+				</div>
+				<div class="form-group font-size-1">
+					<div class="form-check form-check-inline">
+						<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+						<label class="form-check-label text-muted" for="inlineCheckbox1">Tell me about SVL Updates</label>
+					</div>
+				</div>
+				<p class="font-size-2 text-muted">By signing up, I agree to SVL's <a href="#">Terms of Service, Privacy Policy, Guest Refund policy, and Host Guarantee Terms. Click Here</a></p>
+				<button type="submit" class="btn btn-primary btn-block">Send OTP</button>
+			</form>
+		  </div>
+			<div class="modal-footer text-center">
+				<p class="font-size-2">Already a SVL Member? <a href="#signup" data-toggle="modal" data-target="#signInModal" data-dismiss="modal">Sign-In</a></p>
+			</div>
+		</div>
+	</div>
+</div>
+<!--
+Sign In Modal
+-->
+<div class="modal fade" id="signInModal" tabindex="-1" role="dialog" aria-labelledby="signInModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+    <div class="modal-content rounded-0 border-2 border-primary">
+      <div class="modal-header">
+        <h5 class="modal-title" id="signInModalLabel">Sign In</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <nav class="nav justify-content-center social-login a-mx-2 my-2">
+			<a href="#" class="nav-link rounded-circle bg-facebook text-white"><i class="fab fa-facebook-f"></i></a>
+			<a href="#" class="nav-link rounded-circle bg-google text-white"><i class="fab fa-google"></i></a>
+			<a href="#" class="nav-link rounded-circle bg-grey-200"><i class="fab fa-apple"></i></a>
+			<a href="#" class="nav-link rounded-circle bg-amazon black"><i class="fab fa-amazon"></i></a>
+		</nav>
+		<p class="text-center text-muted">or Sign-In with</p>
+		<form>
+			<div class="form-group">
+				<label for="" class="sr-only">Enter Email or Phone Number</label>
+				<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email or Phone Number">
+			</div>
+			<div class="form-group">
+				<label for="" class="sr-only">Password</label>
+				<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your Password">
+			</div>
+			<div class="form-group font-size-1">
+				<a href="#" class="float-right" data-toggle="modal" data-target="#forgotPassModal" data-dismiss="modal">Forgot password?</a>
+				<div class="form-check form-check-inline">
+					<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+					<label class="form-check-label" for="inlineCheckbox1">Remember me</label>
+				</div>
+			</div>
+			<a type="submit" class="btn btn-primary btn-block" href="dashboard.html">Submit</a>
+		</form>
+      </div>
+			<div class="modal-footer text-center">
+				<p class="font-size-2">Don't have an account? <a href="#" data-toggle="modal" data-target="#signUpModal" data-dismiss="modal">Sign up</a></p>
+			</div>
+		</div>
+	</div>
+</div>
+<!--
+Forgot Password Modal
+-->
+<div class="modal fade" id="forgotPassModal" tabindex="-1" role="dialog" aria-labelledby="forgotPassModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+    <div class="modal-content rounded-0 border-2 border-primary">
+      <div class="modal-header">
+        <h5 class="modal-title" id="forgotPassModalLabel">Forgot Password</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+				<form>
+					<div class="form-group">
+						<label for="" class="sr-only">Enter Email or Phone Number</label>
+						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email or Phone Number">
+					</div>
+					<button type="submit" class="btn btn-primary btn-block">Send OTP</button>
+				</form>
+      </div>
+			<div class="modal-footer text-center">
+				<p class="font-size-2">Already a SVL Member? <a href="#" data-toggle="modal" data-target="#signInModal" data-dismiss="modal">Sign-In</a></p>
+			</div>
+    </div>
+  </div>
+</div>
+<!--
+Map Share
+-->
+<div class="modal fade" id="shareMapModal" tabindex="-1" role="dialog" aria-labelledby="shareMapModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+    <div class="modal-content rounded-0 border-2 border-primary">
+      <div class="modal-header">
+        <h5 class="modal-title" id="shareMapModalLabel">Sign In</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <nav class="nav justify-content-center social-login a-mx-2 my-2">
+					<a href="#" class="nav-link rounded-circle bg-facebook text-white"><i class="fab fa-facebook-f"></i></a>
+					<a href="#" class="nav-link rounded-circle bg-google text-white"><i class="fab fa-google"></i></a>
+					<a href="#" class="nav-link rounded-circle bg-grey-200"><i class="fab fa-apple"></i></a>
+					<a href="#" class="nav-link rounded-circle bg-amazon black"><i class="fab fa-amazon"></i></a>
+				</nav>
+				<p class="text-center text-muted">or Sign-In with</p>
+				<form>
+					<div class="form-group">
+						<label for="" class="sr-only">Enter Email or Phone Number</label>
+						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email or Phone Number">
+					</div>
+					<div class="form-group">
+						<label for="" class="sr-only">Password</label>
+						<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your Password">
+					</div>
+					<div class="form-group font-size-1">
+						<a href="#" class="float-right">Forgot password?</a>
+						<div class="form-check form-check-inline">
+							<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+							<label class="form-check-label" for="inlineCheckbox1">Remember me</label>
+						</div>
+					</div>
+					<a type="submit" class="btn btn-primary btn-block" href="dashboard.html">Submit</a>
+				</form>
+      </div>
+			<div class="modal-footer text-center">
+				<p class="font-size-2">Don't have an account? <a href="#">Sign up</a></p>
+			</div>
+    </div>
+  </div>
+</div>
+<!--
+Topbar
+-->
+<section class="bg-black top-bar">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm">
+                <nav class="nav nav-divided justify-content-start a-py-2">
+					<a href="#mail-us" class="nav-link" rel="PageScroll2id" data-ps2id-offset="50"><i class="fas fa-envelope"></i> Email: info@svlglobal.com</a>
+					<a href="#contact-us" class="nav-link" rel="PageScroll2id" data-ps2id-offset="20"><i class="fas fa-map-marker-alt"></i> Contact Us</a>
+				</nav>
+            </div>
+            <div class="col-sm">
+                <nav class="nav nav-divided justify-content-end a-py-2">
+					<a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+					<a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
+					<a href="#" class="nav-link"><i class="fab fa-linkedin-in"></i></a>
+					<a href="#" class="nav-link"><i class="fab fa-instagram"></i></a>
+					<a href="#" class="nav-link"><i class="fab fa-youtube"></i></a>
+					<a href="#" class="nav-link">SVLG Blog</a>
+					<a href="#" class="nav-link" data-toggle="modal" data-target="#signUpModal">Sign-Up</a>
+					<a href="#" class="nav-link" data-toggle="modal" data-target="#signInModal">Sign-In</a>
+				</nav>
+            </div>
+        </div>
+    </div>
+</section>
+<!--
+Navbar
+-->
+<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top" data-hover="dropdown">
+    <div class="container-fluid"> <a class="navbar-brand" href="http://staging.svlglobal.com/"><img src="assets/img/svl-global-logo.svg" alt="" height="40"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHome" aria-controls="navbarHome" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+        <div class="collapse navbar-collapse" id="navbarHome">
+            <div class="navbar-nav ml-auto align-items-center"> <a class="nav-item nav-link" href="http://staging.svlglobal.com/"><i class="fas fa-home"></i></a>
+                <div class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" data-hover="dropdown"> About </a>
+                    <div class="dropdown-menu animated flipInY " aria-labelledby="aboutDropdown">
+						<a class="dropdown-item" href="#">Why S V L</a>
+						<a class="dropdown-item" href="#">Life @ S V L</a>
+						<a class="dropdown-item" href="#">Our Core Values</a>
+						<a class="dropdown-item" href="#">Vision &amp; Mission</a>
+						<a class="dropdown-item" href="#">Key Factors</a>
+						<a class="dropdown-item" href="#">Quality</a>
+						<a class="dropdown-item" href="#">CSR</a>
+					</div>
+                </div>
+                <div class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Services </a>
+					<div class="dropdown-menu animated flipInY" aria-labelledby="servicesDropdown">
+						<a class="dropdown-item" href="#">T-Pilots</a>
+						<a class="dropdown-item" href="#">Car Care</a>
+						<a class="dropdown-item" href="#">Road Assist</a>
+						<a class="dropdown-item" href="#">Pro Insure</a>
+						<a class="dropdown-item" href="#">Promo Care</a>
+						<a class="dropdown-item" href="#">Techno Labs</a>
+						<a class="dropdown-item" href="#">Apps Info</a>
+					</div>
+                </div>
+                <div class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="visionDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Vision </a>
+					<div class="dropdown-menu animated flipInY" aria-labelledby="visionDropdown">
+						<a class="dropdown-item" href="#">Global Vision</a>
+						<a class="dropdown-item" href="#">Travel</a>
+						<a class="dropdown-item" href="#">Transport</a>
+						<a class="dropdown-item" href="#">Fleet Management</a>
+						<a class="dropdown-item" href="#">Doorstep Services</a>
+						<a class="dropdown-item" href="#">Fleet Insurance</a>
+						<a class="dropdown-item" href="#">Branding Services</a>
+						<a class="dropdown-item" href="#">Technology</a>
+						<a class="dropdown-item" href="#">Vocational Courses</a>
+					</div>
+                </div>
+                <div class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="missionDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Mission </a>
+					<div class="dropdown-menu animated flipInY" aria-labelledby="missionDropdown">
+						<a class="dropdown-item" href="#">Global Expansion</a>
+						<a class="dropdown-item" href="#">Network</a>
+						<a class="dropdown-item" href="#">Flexi Payments</a>
+						<a class="dropdown-item" href="#">Transparency</a>
+						<a class="dropdown-item" href="#">Reliability</a>
+						<a class="dropdown-item" href="#">Safety &amp; Security</a>
+						<a class="dropdown-item" href="#">Women Power</a>
+						<a class="dropdown-item" href="#">Satisfaction</a>
+						<a class="dropdown-item" href="#">Helping Hands</a>
+					</div>
+                </div>
+                <a class="nav-item ml-2" href="https://svl5g.app/" target="_blank"><img src="assets/img/svl-5g-app.svg" alt="" height="40"></a>
+            </div>
+        </div>
+    </div>
+</nav><!--
+Main Banner
+-->
+<section class="p-0 position-relative height-900-responsive ie-height-800 bg-grad pattern-overlay-1 overflow-hidden">
+    <div class="container d-flex h-100">
+        <div class="row w-100"> 
+            <!-- banner Content -->
+            <div class="col-sm-5 mt-5 text-white animated fadeInLeft">
+                <h1 class="cd-headline letters rotate-2 mt-5"> <span>Innovative Futuristic</span> <span class="cd-words-wrapper"> <b class="is-visible">Research</b> <b>Development</b> </span> </h1>
+                <p class="mb-4 font-weight-normal d-none d-sm-block">Delivering Value to all our Customers with Highest Quality &amp; Transparency by Ensuring Optimized Availability vs Occupancy.</p>
+				<a href="#" class="btn btn-primary float-right">View More</a>
+            </div>
+            <!-- banner image -->
+            <div class="col-sm-7 p-0 position-absolute top-0 right-0 align-top align-text-top">
+                <figure class="w-100 ie-height-750">
+                    <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1290 1024" style="enable-background:new 0 0 1290 1024;" xml:space="preserve">
+                        <g id="XMLID_81_">
+                            <defs>
+                                <path id="XMLID_3_" d="M1290,0v1024c0,0-229.8-152.2-550-52.9C467.3,1055.7-22.5,927.6,47.8,540C120.4,139.6,17,0,17,0H1290z"/>
+                            </defs>
+                            <clippath id="XMLID_83_">
+                                <use xlink:href="#XMLID_3_"  style="overflow:visible;"/>
+                            </clippath>
+                            <g style="clip-path:url(#XMLID_83_);"> 
+                                <!-- Set your 1290px X 1024px image below -->
+                                <image style="overflow:visible;" width="1290" height="1024" id="XMLID_82_" xlink:href="assets/img/10.jpg"  transform="matrix(0.9999 0 0 0.9999 8.063897e-002 6.401104e-002)"> </image>
+                            </g>
+                        </g>
+                    </svg>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <svg width="100%" height="100%" vers
+         ion="1.1" xmlns="http://www.w3.org/2000/svg" class="wave">
+        <defs></defs>
+        <path id="wave-one" d=""/>
+    </svg>
+    <svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="wave">
+        <defs></defs>
+        <path id="wave-two" d=""/>
+    </svg>
+</section>
+<!--
+Domains
+-->
+<div class="container position-relative" style="z-index:1;">
+    <div class="row">
+        <div class="col">
+            <div class="card shadow-lg domains">
+                <nav class="domains-carousel owl-carousel owl-theme nav">
+					<a class="item nav-link hvr-push w-100" href="http://tpilots.com/" target="_blank"><img src="assets/img/svltpilots.svg" alt="SVL T-Pilots"></a>
+					<a class="item nav-link hvr-push w-100" href="http://svlcarcare.com/" target="_blank"><img src="assets/img/svlcarcare.svg" alt="SVL Car Care"></a>
+					<a class="item nav-link hvr-push w-100" href="http://svlroadassist.com/" target="_blank"><img src="assets/img/svlroadassist.svg" alt="SVL Road Assist"></a>
+					<a class="item nav-link hvr-push w-100" href="http://svlproinsure.com/" target="_blank"><img src="assets/img/svlproinsure.svg" alt="SVL Pro Insure"></a>
+					<a class="item nav-link hvr-push w-100" href="http://svlpromocare.com/" target="_blank"><img src="assets/img/svlpromocare.svg" alt="SVL Promo Care"></a>
+				</nav>
+            </div>
+        </div>
+    </div>
+</div>
+<!--
+About SVL Global
+-->
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm"> <img src="assets/img/hero-2.png" alt="" class="img-fluid wow fadeInRight"> </div>
+            <div class="col-sm wow fadeIn">
+                <h1 class="text-primary mb-4">About <span class="text-warning">SVL Global</span></h1>
+                <p class="mb-5">AI &amp; ML Driven Custom-Application-Development Company having 5 products to ensure guaranteed Customer satisfaction.</p>
+                <ul class="list-unstyled">
+                    <li class="media"> <img src="assets/img/pencil.png" class="mr-3" alt="...">
+                        <div class="media-body">We deliver Next Generation Travel &amp; Allied Services with AI driven added safety features, to serve the needs of customers with Global presence.</div>
+                    </li>
+                    <li class="media my-5"> <img src="assets/img/search.png" class="mr-3" alt="...">
+                        <div class="media-body">This application having comprehensive solutions offered to both Pilots &amp; Customers with Micro Services based Enterprise Architecture.</div>
+                    </li>
+                    <li class="media"> <img src="assets/img/settings.png" class="mr-3" alt="...">
+                        <div class="media-body">Highly experienced team having like-minded professionals in Travel, Technology &amp; Financial domain's with more than 90+ years of combined experience.</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!--
+Our Priorities
+-->
+<section class="bg-light py-5">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-sm-4">
+				<div class="card bg-transparent border-0 text-center">
+					<img src="/assets/img/priorities-bg.png" class="card-img opacity-1 img-fluid w-75" alt="...">
+					<div class="card-img-overlay pt-5 mt-3">
+						<h2 class="card-title heading text-uppercase my-5 pt-5 position-relative">our priorities</h2>
+						<p class="card-text font-size-2 fweight-400 text-muted">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm">
+				<div class="card card-body py-5 img-border-item text-center" style="border-image: url(/assets/img/portfolio_home10_6.jpg) 15 round round;">
+					<h4 class="text-uppercase fweight-400">good decisions come from hard work</h4>
+					<p class="text-muted font-size-2 fweight-400">Lorem ipsum dolor sit amet, animals consectetur adipiscing Curabitur feugiat feugiat bibendum  amet iaculis</p>
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="item-icon">
+								<span class="icon-numb my-3">01</span>
+								<h5 class="my-3">Perspective</h5>
+								<p class="text-muted font-size-2 fweight-400">Lorem ipsum dolor sit amet, animals consectetur feugiat bibendum</p>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="item-icon">
+								<span class="icon-numb my-3">02</span>
+								<h5 class="my-3">Take Challenge</h5>
+								<p class="text-muted font-size-2 fweight-400">Lorem ipsum dolor sit amet, animals consectetur feugiat bibendum</p>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="item-icon">
+								<span class="icon-numb my-3">03</span>
+								<h5 class="my-3">Global Vision</h5>
+								<p class="text-muted font-size-2 fweight-400">Lorem ipsum dolor sit amet, animals consectetur feugiat bibendum</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-		<svg width="100%" height="100%" vers
-         ion="1.1" xmlns="http://www.w3.org/2000/svg" class="wave"><defs></defs><path id="wave-one" d=""/></svg>
-		<svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="wave"><defs></defs><path id="wave-two" d=""/></svg>
-	</section>
-	<!-- =======================
-	Main banner -->
-    
-    <!-- =======================
-	  Categories -->
-    <div class="container position-relative" style="z-index:1;">
-      <div class="row">
-        <div class="col">
-          <div class="card shadow-lg domains">
-              <nav class="owl-carousel owl-theme nav">
-                <a class="item nav-link hvr-push w-100" href="http://tpilots.com/" target="_blank"><img src="assets/img/svltpilots.svg" alt="SVL T-Pilots"></a>
-                <a class="item nav-link hvr-push w-100" href="http://svlcarcare.com/" target="_blank"><img src="assets/img/svlcarcare.svg" alt="SVL Car Care"></a>
-                <a class="item nav-link hvr-push w-100" href="http://svlroadassist.com/" target="_blank"><img src="assets/img/svlroadassist.svg" alt="SVL Road Assist"></a>
-                <a class="item nav-link hvr-push w-100" href="http://svlproinsure.com/" target="_blank"><img src="assets/img/svlproinsure.svg" alt="SVL Pro Insure"></a>
-                <a class="item nav-link hvr-push w-100" href="http://svlpromocare.com/" target="_blank"><img src="assets/img/svlpromocare.svg" alt="SVL Promo Care"></a>
-              </nav>
-          </div>
+	</div>
+</section>
+<!--
+Services
+-->
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 animated fadeIn">
+				<h2 class="heading text-uppercase text-center mb-5 position-relative">Portfolio</h2>
+				<p class=" text-center font-size-2 fweight-400 text-muted">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							
+                <div class="btn-group my-5 d-flex justify-content-between services-ctrl flex-wrap" role="group" aria-label="ServicesFilter">
+                    <button type="button" class="btn btn-outline-secondary rounded-0" data-mixitup-control data-filter="all">All Services</button>
+                    <button type="button" class="btn btn-outline-secondary" data-mixitup-control data-filter=".T-Pilots">T-Pilots</button>
+                    <button type="button" class="btn btn-outline-secondary" data-mixitup-control data-filter=".CarCare">Car Care</button>
+                    <button type="button" class="btn btn-outline-secondary" data-mixitup-control data-filter=".RoadAssist">Road Assist</button>
+                    <button type="button" class="btn btn-outline-secondary" data-mixitup-control data-filter=".ProInsure">Pro Insure</button>
+                    <button type="button" class="btn btn-outline-secondary rounded-0" data-mixitup-control data-filter=".PromoCare">Promo Care</button>
+                </div>
+                <div class="row services" data-ref="mixitup-container">
+                    <div class="col-sm-3 mix T-Pilots" data-ref="mixitup-target">
+                        <div class="card border-0 shadow mb-4">
+														<a class="hover-effect" href="details.html">
+															<img src="https://via.placeholder.com/500x250/0674ed/ffffff?text=T-Pilots" alt="" class="card-img-top">
+														</a>
+                            <div class="card-header bg-white border-bottom-0 d-flex align-items-start justify-content-between py-2">
+															<div>
+																<h6 class="card-title feature-box-title mb-1 font-size-3 fweight-400">Service Title</h6>
+																<p class="card-subtitle text-muted font-size-1">Subtitle</p>
+															</div>
+															<a class="btn btn-light btn-sm font-size-1 text-uppercase" href="details.html" role="button" title="View Details">Select</a>
+														</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 mix T-Pilots" data-ref="mixitup-target">
+                        <div class="card border-0 shadow mb-4">
+														<a class="hover-effect" href="details.html">
+															<img src="https://via.placeholder.com/500x250/0674ed/ffffff?text=T-Pilots" alt="" class="card-img-top">
+														</a>
+                            <div class="card-header bg-white border-bottom-0 d-flex align-items-start justify-content-between py-2">
+															<div>
+																<h6 class="card-title feature-box-title mb-1 font-size-3 fweight-400">Service Title</h6>
+																<p class="card-subtitle text-muted font-size-1">Subtitle</p>
+															</div>
+															<a class="btn btn-light btn-sm font-size-1 text-uppercase" href="details.html" role="button" title="View Details">Select</a>
+														</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 mix T-Pilots" data-ref="mixitup-target">
+                        <div class="card border-0 shadow mb-4">
+														<a class="hover-effect" href="details.html">
+															<img src="https://via.placeholder.com/500x250/0674ed/ffffff?text=T-Pilots" alt="" class="card-img-top">
+														</a>
+                            <div class="card-header bg-white border-bottom-0 d-flex align-items-start justify-content-between py-2">
+															<div>
+																<h6 class="card-title feature-box-title mb-1 font-size-3 fweight-400">Service Title</h6>
+																<p class="card-subtitle text-muted font-size-1">Subtitle</p>
+															</div>
+															<a class="btn btn-light btn-sm font-size-1 text-uppercase" href="details.html" role="button" title="View Details">Select</a>
+														</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 mix T-Pilots" data-ref="mixitup-target">
+                        <div class="card border-0 shadow mb-4">
+														<a class="hover-effect" href="details.html">
+															<img src="https://via.placeholder.com/500x250/0674ed/ffffff?text=T-Pilots" alt="" class="card-img-top">
+														</a>
+                            <div class="card-header bg-white border-bottom-0 d-flex align-items-start justify-content-between py-2">
+															<div>
+																<h6 class="card-title feature-box-title mb-1 font-size-3 fweight-400">Service Title</h6>
+																<p class="card-subtitle text-muted font-size-1">Subtitle</p>
+															</div>
+															<a class="btn btn-light btn-sm font-size-1 text-uppercase" href="details.html" role="button" title="View Details">Select</a>
+														</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 mix CarCare" data-ref="mixitup-target">
+                        <div class="card border-0 shadow mb-4">
+														<a class="hover-effect" href="details.html">
+															<img src="https://via.placeholder.com/500x250/0674ed/ffffff?text=Car+Care" alt="" class="card-img-top">
+														</a>
+                            <div class="card-header bg-white border-bottom-0 d-flex align-items-start justify-content-between py-2">
+															<div>
+																<h6 class="card-title feature-box-title mb-1 font-size-3 fweight-400">Service Title</h6>
+																<p class="card-subtitle text-muted font-size-1">Subtitle</p>
+															</div>
+															<a class="btn btn-light btn-sm font-size-1 text-uppercase" href="details.html" role="button" title="View Details">Select</a>
+														</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 mix CarCare" data-ref="mixitup-target">
+                        <div class="card border-0 shadow mb-4">
+														<a class="hover-effect" href="details.html">
+															<img src="https://via.placeholder.com/500x250/0674ed/ffffff?text=Car+Care" alt="" class="card-img-top">
+														</a>
+                            <div class="card-header bg-white border-bottom-0 d-flex align-items-start justify-content-between py-2">
+															<div>
+																<h6 class="card-title feature-box-title mb-1 font-size-3 fweight-400">Service Title</h6>
+																<p class="card-subtitle text-muted font-size-1">Subtitle</p>
+															</div>
+															<a class="btn btn-light btn-sm font-size-1 text-uppercase" href="details.html" role="button" title="View Details">Select</a>
+														</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 mix CarCare" data-ref="mixitup-target">
+                        <div class="card border-0 shadow mb-4">
+														<a class="hover-effect" href="details.html">
+															<img src="https://via.placeholder.com/500x250/0674ed/ffffff?text=Car+Care" alt="" class="card-img-top">
+														</a>
+                            <div class="card-header bg-white border-bottom-0 d-flex align-items-start justify-content-between py-2">
+															<div>
+																<h6 class="card-title feature-box-title mb-1 font-size-3 fweight-400">Service Title</h6>
+																<p class="card-subtitle text-muted font-size-1">Subtitle</p>
+															</div>
+															<a class="btn btn-light btn-sm font-size-1 text-uppercase" href="details.html" role="button" title="View Details">Select</a>
+														</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 mix CarCare" data-ref="mixitup-target">
+                        <div class="card border-0 shadow mb-4">
+														<a class="hover-effect" href="details.html">
+															<img src="https://via.placeholder.com/500x250/0674ed/ffffff?text=Car+Care" alt="" class="card-img-top">
+														</a>
+                            <div class="card-header bg-white border-bottom-0 d-flex align-items-start justify-content-between py-2">
+															<div>
+																<h6 class="card-title feature-box-title mb-1 font-size-3 fweight-400">Service Title</h6>
+																<p class="card-subtitle text-muted font-size-1">Subtitle</p>
+															</div>
+															<a class="btn btn-light btn-sm font-size-1 text-uppercase" href="details.html" role="button" title="View Details">Select</a>
+														</div>
+                        </div>
+                    </div>
+										<div class="col-sm-3 mix RoadAssist" data-ref="mixitup-target">
+													<div class="card border-0 shadow mb-4">
+															<a class="hover-effect" href="details.html">
+																<img src="https://via.placeholder.com/500x250/0674ed/ffffff?text=Road+Assist" alt="" class="card-img-top">
+															</a>
+															<div class="card-header bg-white border-bottom-0 d-flex align-items-start justify-content-between py-2">
+																<div>
+																	<h6 class="card-title feature-box-title mb-1 font-size-3 fweight-400">Service Title</h6>
+																	<p class="card-subtitle text-muted font-size-1">Subtitle</p>
+																</div>
+																<a class="btn btn-light btn-sm font-size-1 text-uppercase" href="details.html" role="button" title="View Details">Select</a>
+															</div>
+													</div>
+											</div>
+										<div class="col-sm-3 mix RoadAssist" data-ref="mixitup-target">
+												<div class="card border-0 shadow mb-4">
+														<a class="hover-effect" href="details.html">
+															<img src="https://via.placeholder.com/500x250/0674ed/ffffff?text=Road+Assist" alt="" class="card-img-top">
+														</a>
+														<div class="card-header bg-white border-bottom-0 d-flex align-items-start justify-content-between py-2">
+															<div>
+																<h6 class="card-title feature-box-title mb-1 font-size-3 fweight-400">Service Title</h6>
+																<p class="card-subtitle text-muted font-size-1">Subtitle</p>
+															</div>
+															<a class="btn btn-light btn-sm font-size-1 text-uppercase" href="details.html" role="button" title="View Details">Select</a>
+														</div>
+												</div>
+										</div>
+										<div class="col-sm-3 mix RoadAssist" data-ref="mixitup-target">
+												<div class="card border-0 shadow mb-4">
+														<a class="hover-effect" href="details.html">
+															<img src="https://via.placeholder.com/500x250/0674ed/ffffff?text=Road+Assist" alt="" class="card-img-top">
+														</a>
+														<div class="card-header bg-white border-bottom-0 d-flex align-items-start justify-content-between py-2">
+															<div>
+																<h6 class="card-title feature-box-title mb-1 font-size-3 fweight-400">Service Title</h6>
+																<p class="card-subtitle text-muted font-size-1">Subtitle</p>
+															</div>
+															<a class="btn btn-light btn-sm font-size-1 text-uppercase" href="details.html" role="button" title="View Details">Select</a>
+														</div>
+												</div>
+										</div>
+										<div class="col-sm-3 mix RoadAssist" data-ref="mixitup-target">
+												<div class="card border-0 shadow mb-4">
+														<a class="hover-effect" href="details.html">
+															<img src="https://via.placeholder.com/500x250/0674ed/ffffff?text=Road+Assist" alt="" class="card-img-top">
+														</a>
+														<div class="card-header bg-white border-bottom-0 d-flex align-items-start justify-content-between py-2">
+															<div>
+																<h6 class="card-title feature-box-title mb-1 font-size-3 fweight-400">Service Title</h6>
+																<p class="card-subtitle text-muted font-size-1">Subtitle</p>
+															</div>
+															<a class="btn btn-light btn-sm font-size-1 text-uppercase" href="details.html" role="button" title="View Details">Select</a>
+														</div>
+												</div>
+										</div>
+										<div class="col-sm-3 mix ProInsure" data-ref="mixitup-target">
+												<div class="card border-0 shadow mb-4">
+														<a class="hover-effect" href="details.html">
+															<img src="https://via.placeholder.com/500x250/0674ed/ffffff?text=Pro+Insure" alt="" class="card-img-top">
+														</a>
+														<div class="card-header bg-white border-bottom-0 d-flex align-items-start justify-content-between py-2">
+															<div>
+																<h6 class="card-title feature-box-title mb-1 font-size-3 fweight-400">Service Title</h6>
+																<p class="card-subtitle text-muted font-size-1">Subtitle</p>
+															</div>
+															<a class="btn btn-light btn-sm font-size-1 text-uppercase" href="details.html" role="button" title="View Details">Select</a>
+														</div>
+												</div>
+										</div>
+										<div class="col-sm-3 mix ProInsure" data-ref="mixitup-target">
+												<div class="card border-0 shadow mb-4">
+														<a class="hover-effect" href="details.html">
+															<img src="https://via.placeholder.com/500x250/0674ed/ffffff?text=Pro+Insure" alt="" class="card-img-top">
+														</a>
+														<div class="card-header bg-white border-bottom-0 d-flex align-items-start justify-content-between py-2">
+															<div>
+																<h6 class="card-title feature-box-title mb-1 font-size-3 fweight-400">Service Title</h6>
+																<p class="card-subtitle text-muted font-size-1">Subtitle</p>
+															</div>
+															<a class="btn btn-light btn-sm font-size-1 text-uppercase" href="details.html" role="button" title="View Details">Select</a>
+														</div>
+												</div>
+										</div>
+										<div class="col-sm-3 mix ProInsure" data-ref="mixitup-target">
+												<div class="card border-0 shadow mb-4">
+														<a class="hover-effect" href="details.html">
+															<img src="https://via.placeholder.com/500x250/0674ed/ffffff?text=Pro+Insure" alt="" class="card-img-top">
+														</a>
+														<div class="card-header bg-white border-bottom-0 d-flex align-items-start justify-content-between py-2">
+															<div>
+																<h6 class="card-title feature-box-title mb-1 font-size-3 fweight-400">Service Title</h6>
+																<p class="card-subtitle text-muted font-size-1">Subtitle</p>
+															</div>
+															<a class="btn btn-light btn-sm font-size-1 text-uppercase" href="details.html" role="button" title="View Details">Select</a>
+														</div>
+												</div>
+										</div>
+										<div class="col-sm-3 mix ProInsure" data-ref="mixitup-target">
+												<div class="card border-0 shadow mb-4">
+														<a class="hover-effect" href="details.html">
+															<img src="https://via.placeholder.com/500x250/0674ed/ffffff?text=Pro+Insure" alt="" class="card-img-top">
+														</a>
+														<div class="card-header bg-white border-bottom-0 d-flex align-items-start justify-content-between py-2">
+															<div>
+																<h6 class="card-title feature-box-title mb-1 font-size-3 fweight-400">Service Title</h6>
+																<p class="card-subtitle text-muted font-size-1">Subtitle</p>
+															</div>
+															<a class="btn btn-light btn-sm font-size-1 text-uppercase" href="details.html" role="button" title="View Details">Select</a>
+														</div>
+												</div>
+										</div>
+										<div class="col-sm-3 mix PromoCare" data-ref="mixitup-target">
+												<div class="card border-0 shadow mb-4">
+														<a class="hover-effect" href="details.html">
+															<img src="https://via.placeholder.com/500x250/0674ed/ffffff?text=Promo+Care" alt="" class="card-img-top">
+														</a>
+														<div class="card-header bg-white border-bottom-0 d-flex align-items-start justify-content-between py-2">
+															<div>
+																<h6 class="card-title feature-box-title mb-1 font-size-3 fweight-400">Service Title</h6>
+																<p class="card-subtitle text-muted font-size-1">Subtitle</p>
+															</div>
+															<a class="btn btn-light btn-sm font-size-1 text-uppercase" href="details.html" role="button" title="View Details">Select</a>
+														</div>
+												</div>
+										</div>
+										<div class="col-sm-3 mix PromoCare" data-ref="mixitup-target">
+												<div class="card border-0 shadow mb-4">
+														<a class="hover-effect" href="details.html">
+															<img src="https://via.placeholder.com/500x250/0674ed/ffffff?text=Promo+Care" alt="" class="card-img-top">
+														</a>
+														<div class="card-header bg-white border-bottom-0 d-flex align-items-start justify-content-between py-2">
+															<div>
+																<h6 class="card-title feature-box-title mb-1 font-size-3 fweight-400">Service Title</h6>
+																<p class="card-subtitle text-muted font-size-1">Subtitle</p>
+															</div>
+															<a class="btn btn-light btn-sm font-size-1 text-uppercase" href="details.html" role="button" title="View Details">Select</a>
+														</div>
+												</div>
+										</div>
+										<div class="col-sm-3 mix PromoCare" data-ref="mixitup-target">
+												<div class="card border-0 shadow mb-4">
+														<a class="hover-effect" href="details.html">
+															<img src="https://via.placeholder.com/500x250/0674ed/ffffff?text=Promo+Care" alt="" class="card-img-top">
+														</a>
+														<div class="card-header bg-white border-bottom-0 d-flex align-items-start justify-content-between py-2">
+															<div>
+																<h6 class="card-title feature-box-title mb-1 font-size-3 fweight-400">Service Title</h6>
+																<p class="card-subtitle text-muted font-size-1">Subtitle</p>
+															</div>
+															<a class="btn btn-light btn-sm font-size-1 text-uppercase" href="details.html" role="button" title="View Details">Select</a>
+														</div>
+												</div>
+										</div>
+										<div class="col-sm-3 mix PromoCare" data-ref="mixitup-target">
+												<div class="card border-0 shadow mb-4">
+														<a class="hover-effect" href="details.html">
+															<img src="https://via.placeholder.com/500x250/0674ed/ffffff?text=Promo+Care" alt="" class="card-img-top">
+														</a>
+														<div class="card-header bg-white border-bottom-0 d-flex align-items-start justify-content-between py-2">
+															<div>
+																<h6 class="card-title feature-box-title mb-1 font-size-3 fweight-400">Service Title</h6>
+																<p class="card-subtitle text-muted font-size-1">Subtitle</p>
+															</div>
+															<a class="btn btn-light btn-sm font-size-1 text-uppercase" href="details.html" role="button" title="View Details">Select</a>
+														</div>
+												</div>
+										</div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-    <!-- =======================
-	  Services -->
-    <section class="py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <img src="assets/img/hero-2.png" alt="" class="img-fluid animated fadeInRight">
-          </div>
-          <div class="col animated fadeIn">
-            <h1 class="text-primary mb-4">About <span class="text-warning">SVL Global</span></h1>
-            <p class="mb-5">Our support team will get assistance from AI-powered suggestions, making it quicker than ever to handle support requests.</p>
-            <ul class="list-unstyled">
-              <li class="media">
-                <img src="assets/img/pencil.png" class="mr-3" alt="...">
-                <div class="media-body">
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
-                </div>
-              </li>
-              <li class="media my-5">
-                <img src="assets/img/search.png" class="mr-3" alt="...">
-                <div class="media-body">
-                  Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla.
-                </div>
-              </li>
-              <li class="media">
-                <img src="assets/img/settings.png" class="mr-3" alt="...">
-                <div class="media-body">
-                  Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- =======================
-	  About 
-    <section class="mt-5 py-3">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <img src="assets/img/technolabs-way.jpg" alt="" class="img-fluid">
-          </div>
-          <div class="col">
-            <h1 class="text-primary mb-4">About <span class="text-warning">SVL Global</span></h1>
-            <p>We, a Research &amp; Development giant, targets in simplifying the availability of app and web services of every industry connected with fleet management system. </p>
-            <p>Our application will act as a single point solution to suit Travel &amp; Automotive requirements of all the Pilots (Drivers) &amp; the Customers. We are in market with an aim to integrate the Inter-Connected verticals using single platform to reduce operations cost &amp; human interference that helps &amp; provides consistent &amp; convenient services to our customers. We aim to save the Time of execution &amp; Cost of implementation of our services with Quality to generate multiple sources of revenue from a single platform to multiply profitability. We are a group of highly experienced team having like-minded professionals both in Technology, Domain &amp; Financial areas with more than 90+ years of combined experience.</p>
-          </div>
-        </div>
-      </div>
-    </section> -->
-    <!-- =======================
-	  Call To Action -->
-    <!-- =======================
-	  Services -->
-    <section class="bg-light py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 animated fadeIn">
-            <div class="btn-group mb-5 d-flex justify-content-between" role="group" aria-label="ServicesFilter">
-              <button type="button" class="btn btn-outline-warning" data-filter="all">All</button>
-              <button type="button" class="btn btn-outline-warning" data-filter=".green">Service 1</button>
-              <button type="button" class="btn btn-outline-warning" data-filter=".blue">Service 2</button>
-              <button type="button" class="btn btn-outline-warning" data-filter=".pink">Service 3</button>
-              <button type="button" class="btn btn-outline-warning" data-sort="default:asc">Asc</button>
-              <button type="button" class="btn btn-outline-warning" data-sort="default:desc">Desc</button>
-            </div>
-            
-            <div class="row services">
-              <div class="col-sm-4 mix green">
-                <div class="card feature border-0 icon-grad mb-4">
-                  <div class="card-header bg-transparent border-bottom-0 feature-box-title"><i class="fas fa-car-side feature-icon"></i></div>
-                  <h3 class="card-header bg-transparent border-bottom-0 feature-box-title">Service Title One</h3>
-                  <div class="card-body">
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim placeat deleniti, vero obcaecati, nihil amet impedit optio eligendi sequi nisi commodi velit necessitatibus mollitia voluptatibus omnis possimus quae alias. Minima!</p>
-                    
-                    <a class="mt-3" href="#">Know more!</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-3 mix green"><img src="https://picsum.photos/id/2/1024/768" alt="" class="img-fluid mb-3"></div>
-              <div class="col-sm-3 mix blue"><img src="https://picsum.photos/id/3/1024/768" alt="" class="img-fluid mb-3"></div>
-              <div class="col-sm-3 mix pink"><img src="https://picsum.photos/id/4/1024/768" alt="" class="img-fluid mb-3"></div>
-              <div class="col-sm-3 mix green"><img src="https://picsum.photos/id/5/1024/768" alt="" class="img-fluid mb-3"></div>
-              <div class="col-sm-3 mix blue"><img src="https://picsum.photos/id/6/1024/768" alt="" class="img-fluid mb-3"></div>
-              <div class="col-sm-3 mix pink"><img src="https://picsum.photos/id/7/1024/768" alt="" class="img-fluid mb-3"></div>
-              <div class="col-sm-3 mix blue"><img src="https://picsum.photos/id/8/1024/768" alt="" class="img-fluid mb-3"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- =======================
-	  App Download -->
-    <section class="py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <h1 class="text-primary mb-4">Download our <span class="text-warning">App</span> through store.</h1>
-            <nav class="nav">
-              <a href="#" class="nav-link"><img src="assets/img/google-play-badge.svg" alt="" height="50"></a>
-              <a href="#" class="nav-link"><img src="assets/img/Download_on_the_App_Store_Badge.svg" alt="" height="50"></a>
-            </nav>
-          </div>
-          <div class="col">
-            <img src="assets/img/iPhone.png" alt="" class="img-fluid">
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- =======================
-	  Footer -->
-    <footer class="bg-dark text-white">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <nav class="nav flex-column">
-              <a href="#" class="nav-link">Why S V L</a>
-              <a href="#" class="nav-link">Life @ S V L</a>
-              <a href="#" class="nav-link">Investments</a>
-              <a href="#" class="nav-link">Stakes Open</a>
-              <a href="#" class="nav-link">Vision &amp; Mission</a>
-              <a href="#" class="nav-link">Contact Us</a>
-              <a href="#" class="nav-link">Vehicle Maintenance</a>
-              <a href="#" class="nav-link">Job Seekers</a>
-              <a href="#" class="nav-link">Quality</a>
-              <a href="#" class="nav-link">Blog</a>
-            </nav>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <p>&copy; 2020 S V L Global. All Rights Reserved</p>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <script src="assets/js/animated-headlines.js"></script>
-    <script src="assets/js/mixitup.min.js"></script>
-    <script>
-        var containerEl = document.querySelector('.services');
-        var mixer = mixitup(containerEl);
-    </script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script>
-    $('.owl-carousel').owlCarousel({
-        margin:10,
-        nav:true,
-      dots:false,
-        loop:true,
-        autoplayHoverPause:true,
-        autoplayTimeout: 2600,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:3
-            },
-            1000:{
-                items:5
-            }
+</section>
+<!--
+Download App
+-->
+<section class="bg-light py-5">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-sm wow fadeInRight">
+				<h2 class="text-primary">Get our <span class="text-warning">5G App</span> from the Store</h2>
+				<p class="fweight-400 text-muted">Download the app for exclusive deals and ease of booking </p>
+				<nav class="nav a-pl-0 mb-4">
+					<a href="#" class="nav-link">
+						<img src="assets/img/Download_on_the_App_Store_Badge.svg" alt="" height="50">
+					</a>
+					<a href="#" class="nav-link">
+						<img src="assets/img/google-play-badge.svg" alt="" height="50">
+					</a>
+					<a href="#" class="nav-link">
+						<img src="assets/img/get-it-from-microsoft.svg" alt="" height="50">
+					</a>
+				</nav>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="media mb-3">
+							<i class="fas fa-bullseye fa-2x mr-3"></i>
+							<div class="media-body">
+								<h6 class="mt-0 fweight-400">Media heading</h6>
+								<p class="font-size-2 fweight-400 text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, corporis, accusantium? Tempore itaque cupiditate</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="media mb-3">
+							<i class="fas fa-bullseye fa-2x mr-3"></i>
+							<div class="media-body">
+								<h6 class="mt-0 fweight-400">Media heading</h6>
+								<p class="font-size-2 fweight-400 text-muted">recusandae facere amet optio, officia accusantium ad at similique illo corporis eius nostrum, blanditiis deserunt alias.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="media mb-3">
+							<i class="fas fa-bullseye fa-2x mr-3"></i>
+							<div class="media-body">
+								<h6 class="mt-0 fweight-400">Media heading</h6>
+								<p class="font-size-2 fweight-400 text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, corporis, accusantium? Tempore itaque cupiditate</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="media mb-3">
+							<i class="fas fa-bullseye fa-2x mr-3"></i>
+							<div class="media-body">
+								<h6 class="mt-0 fweight-400">Media heading</h6>
+								<p class="font-size-2 fweight-400 text-muted">recusandae facere amet optio, officia accusantium ad at similique illo corporis eius nostrum, blanditiis deserunt alias.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-5 wow slideInUp">
+				<img src="assets/img/iPhone.png" alt="" class="img-fluid">
+			</div>
+		</div>
+	</div>
+</section>
+<!--
+Testimonials
+-->
+<section class="py-5 testimonials bg-blue-50">
+	<div class="container py-5">
+		<div class="row align-items-center">
+			<div class="col-sm-8">
+				<h2 class="heading text-uppercase text-center mb-5 position-relative">Testimonials</h2>
+				<div class="testimonials-carousel owl-carousel owl-theme">
+					<div class="item row align-items-center justify-content-center">
+						<div class="col-sm-2">
+							<img src="https://picsum.photos/150/150?random=1" alt="" class="rounded-circle img-fluid w-auto mx-auto">
+						</div>
+						<div class="col-sm">
+							<h6 class="text-primary">Person Name <small class="text-warning">Subtitle</small></h6>
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores nemo optio similique quidem ratione distinctio est sapiente aperiam accusamus consequatur officiis odio, ipsum ipsa earum aliquam sequi esse veniam blanditiis.</p>
+						</div>
+					</div>
+					<div class="item row align-items-center">
+						<div class="col-sm-2">
+							<img src="https://picsum.photos/150/150?random=1" alt="" class="rounded-circle img-fluid w-auto mx-auto">
+						</div>
+						<div class="col-sm">
+							<h6 class="text-primary">Person Name <small class="text-warning">Subtitle</small></h6>
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores nemo optio similique quidem ratione distinctio est sapiente aperiam accusamus consequatur officiis odio, ipsum ipsa earum aliquam sequi esse veniam blanditiis.</p>
+						</div>
+					</div>
+					<div class="item row align-items-center">
+						<div class="col-sm-2">
+							<img src="https://picsum.photos/150/150?random=2" alt="" class="rounded-circle img-fluid w-auto mx-auto">
+						</div>
+						<div class="col-sm">
+							<h6 class="text-primary">Person Name <small class="text-warning">Subtitle</small></h6>
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores nemo optio similique quidem ratione distinctio est sapiente aperiam accusamus consequatur officiis odio, ipsum ipsa earum aliquam sequi esse veniam blanditiis.</p>
+						</div>
+					</div>
+					<div class="item row align-items-center">
+						<div class="col-sm-2">
+							<img src="https://picsum.photos/150/150?random=3" alt="" class="rounded-circle img-fluid w-auto mx-auto">
+						</div>
+						<div class="col-sm">
+							<h6 class="text-primary">Person Name <small class="text-warning">Subtitle</small></h6>
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores nemo optio similique quidem ratione distinctio est sapiente aperiam accusamus consequatur officiis odio, ipsum ipsa earum aliquam sequi esse veniam blanditiis.</p>
+						</div>
+					</div>
+					<div class="item row align-items-center">
+						<div class="col-sm-2">
+							<img src="https://picsum.photos/150/150?random=4" alt="" class="rounded-circle img-fluid w-auto mx-auto">
+						</div>
+						<div class="col-sm">
+							<h6 class="text-primary">Person Name <small class="text-warning">Subtitle</small></h6>
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores nemo optio similique quidem ratione distinctio est sapiente aperiam accusamus consequatur officiis odio, ipsum ipsa earum aliquam sequi esse veniam blanditiis.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3 text-center">
+				<a href="#" class="btn btn-warning rounded-pill shadow my-4">Feedback</a><br>
+				<a href="#" class="btn btn-primary rounded-pill shadow my-4">Reviews - Dashboard</a>
+			</div>
+		</div>
+	</div>
+</section>
+<!--
+Contact Us
+-->
+<section class="contact-us">
+	<header class="bg-light py-5" id="contact-us">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h2 class="heading text-uppercase text-center mb-5 position-relative">Contact Us</h2>
+					<p class=" text-center font-size-2 fweight-400 text-muted mb-3">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				</div>
+			</div>
+			<div class="row py-4">
+				<div class="col-sm">
+					<div class="list-group list-group-flush">
+						<a href="#" class="list-group-item list-group-item-action">
+							<h5>Registered and Corporate Office</h5>
+							<h6 class="text-muted my-3">SVL Global</h6>
+							<p class="text-muted font-size-2 mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente ea officiis necessitatibus commodi.</p>
+						</a>
+						<a href="#" class="list-group-item list-group-item-action">
+							<h5>Hyderabad</h5>
+							<h6 class="text-muted my-3">SVL Global</h6>
+							<p class="text-muted font-size-2 mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente ea officiis necessitatibus commodi.</p>
+						</a>
+						<a href="#" class="list-group-item list-group-item-action border-bottom">
+							<h5>Bangalore</h5>
+							<h6 class="text-muted my-3">SVL Global</h6>
+							<p class="text-muted font-size-2 mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente ea officiis necessitatibus commodi.</p>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm position-relative">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.31698248573!2d78.26795853991645!3d17.4122998009489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1581677103531!5m2!1sen!2sin" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+					<a class="btn btn-warning position-absolute map-share-btn rounded-pill" href="#" role="button" data-toggle="modal" data-target="#shareMapModal">Get Location Info <i class="fas fa-share"></i></a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="container">
+		
+		<div class="row pt-5" id="mail-us">
+			<div class="col-sm-3 hidden-xs">
+				<div class="nav flex-column nav-pills nav-fill contact-us-tabs" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+					<a class="nav-link active" id="feed-on-info-list" data-toggle="pill" href="#feed-on-info" role="tab" aria-controls="FeedbackOnInfo" aria-selected="true">Feedback on Information Provided By SVL</a>
+					<a class="nav-link" id="feed-on-staff-list" data-toggle="pill" href="#feed-on-staff" role="tab" aria-controls="FeedbackOnStaff">Feedback on SVL Staff</a>
+					<a class="nav-link" id="online-services-list" data-toggle="pill" href="#online-services" role="tab" aria-controls="OnlineServices">Issues with Online Services</a>
+					<a class="nav-link" id="new-tie-up-list" data-toggle="pill" href="#new-tie-up" role="tab" aria-controls="NewTieUp">New Tie-up with SVL</a>
+					<a class="nav-link" id="suggestions-on-ui-list" data-toggle="pill" href="#suggestions-on-ui" role="tab" aria-controls="SuggestionsOnUI">Suggestions on User Interface?</a>
+					<a class="nav-link" id="other-issue-list" data-toggle="pill" href="#other-issue" role="tab" aria-controls="OtherIssue">Any Other Issue</a>
+				</div>
+			</div>
+			<div class="col-sm-9">
+				<div class="tab-content" id="v-pills-tabContent">
+					<div class="tab-pane fade show active" id="feed-on-info" role="tabpanel" aria-labelledby="feed-on-info-list">
+						<h4 class="fweight-400 border-bottom pb-2 mb-3">Feedback on Information Provided By SVL</h4>
+						<p class="text-muted">Your feedback will help us improve</p>
+						<form>
+									<div class="form-group">
+											<input type="text" class="form-control" id="" placeholder="Select City Name*" value="">    
+									</div>
+									<div class="form-group">
+											<input type="text" class="form-control" id="fbnamid" placeholder="Name*" value="">
+									</div>
+									<div class="form-group dt">
+										<div class="input-group">
+											<div class="input-group-prepend"><span class="input-group-text" id="">+91</span></div>
+											<input type="number" onkeypress="return isNumber(event,this.id)" class="form-control form-control-bdr-nn" maxlength="10" id="fbmobile" placeholder="Mobile Number*" value="">
+										</div>
+									</div>
+									<div class="form-group">
+										<input type="email" class="form-control" id="fbemail" placeholder="Email" value="">
+									</div>
+									<div class="form-group">
+										<textarea class="form-control" id="fbcomment" rows="4" placeholder="Message*"></textarea>
+									</div>
+									<div class="form-row justify-content-between align-items-center">
+										<div class="form-group col-sm-auto">
+											<span class="smltx tcon">* Marked Fields Mandatory</span>
+										</div>
+										<div class="form-group col-sm-auto">
+											<div class="text-right text-left-xs">
+													<button type="button" onclick="feedbackresult('Other Issues');" class="btn btn-primary btn-lg" id="feedBtnId"><span class="tcon">Submit</span> <span class="white_lodr" style="display:none;"></span></button>
+											</div>
+										</div>
+									</div>
+							</form>
+					</div>
+					<div class="tab-pane fade" id="feed-on-staff" role="tabpanel" aria-labelledby="feed-on-staff-list">
+						<h4 class="fweight-400 border-bottom pb-2 mb-3">Feedback on SVL Staff</h4>
+						<p class="text-muted">Your feedback will help us improve</p>
+						<form>
+									<div class="form-group">
+											<input type="text" class="form-control" id="" placeholder="Select City Name*" value="">    
+									</div>
+									<div class="form-group">
+											<input type="text" class="form-control" id="fbnamid" placeholder="Name*" value="">
+									</div>
+									<div class="form-group dt">
+										<div class="input-group">
+											<div class="input-group-prepend"><span class="input-group-text" id="">+91</span></div>
+											<input type="number" onkeypress="return isNumber(event,this.id)" class="form-control form-control-bdr-nn" maxlength="10" id="fbmobile" placeholder="Mobile Number*" value="">
+										</div>
+									</div>
+									<div class="form-group">
+										<input type="email" class="form-control" id="fbemail" placeholder="Email" value="">
+									</div>
+									<div class="form-group">
+										<textarea class="form-control" id="fbcomment" rows="4" placeholder="Message*"></textarea>
+									</div>
+									<div class="form-row justify-content-between align-items-center">
+										<div class="form-group col-sm-auto">
+											<span class="smltx tcon">* Marked Fields Mandatory</span>
+										</div>
+										<div class="form-group col-sm-auto">
+											<div class="text-right text-left-xs">
+													<button type="button" onclick="feedbackresult('Other Issues');" class="btn btn-primary btn-lg" id="feedBtnId"><span class="tcon">Submit</span> <span class="white_lodr" style="display:none;"></span></button>
+											</div>
+										</div>
+									</div>
+							</form>
+					</div>
+					<div class="tab-pane fade" id="online-services" role="tabpanel" aria-labelledby="online-services-list">
+						<h4 class="fweight-400 border-bottom pb-2 mb-3">Issues with Online Services</h4>
+						<p class="text-muted">Your feedback will help us improve</p>
+						<form>
+									<div class="form-group">
+											<input type="text" class="form-control" id="" placeholder="Select City Name*" value="">    
+									</div>
+									<div class="form-group">
+											<input type="text" class="form-control" id="fbnamid" placeholder="Name*" value="">
+									</div>
+									<div class="form-group dt">
+										<div class="input-group">
+											<div class="input-group-prepend"><span class="input-group-text" id="">+91</span></div>
+											<input type="number" onkeypress="return isNumber(event,this.id)" class="form-control form-control-bdr-nn" maxlength="10" id="fbmobile" placeholder="Mobile Number*" value="">
+										</div>
+									</div>
+									<div class="form-group">
+										<input type="email" class="form-control" id="fbemail" placeholder="Email" value="">
+									</div>
+									<div class="form-group">
+										<textarea class="form-control" id="fbcomment" rows="4" placeholder="Message*"></textarea>
+									</div>
+									<div class="form-row justify-content-between align-items-center">
+										<div class="form-group col-sm-auto">
+											<span class="smltx tcon">* Marked Fields Mandatory</span>
+										</div>
+										<div class="form-group col-sm-auto">
+											<div class="text-right text-left-xs">
+													<button type="button" onclick="feedbackresult('Other Issues');" class="btn btn-primary btn-lg" id="feedBtnId"><span class="tcon">Submit</span> <span class="white_lodr" style="display:none;"></span></button>
+											</div>
+										</div>
+									</div>
+
+							</form>
+					</div>
+					<div class="tab-pane fade" id="new-tie-up" role="tabpanel" aria-labelledby="new-tie-up-list">
+						<h4 class="fweight-400 border-bottom pb-2 mb-3">New Tie-up with SVL</h4>
+						<p class="text-muted">We are Happy to associate with you for Growing Together</p>
+						<form>
+							<div class="form-row">
+								<div class="form-group col-sm-9">
+									<input type="text" class="form-control" placeholder="Company Name" value="">    
+								</div>
+								<div class="form-group col-sm-3">
+									<input type="text" class="form-control" placeholder="Hyderabad" value="">    
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-group col-sm-2">
+									<select class="form-control">
+									  <option selected>Title</option>
+									  <option value="1">One</option>
+									  <option value="2">Two</option>
+									  <option value="3">Three</option>
+									</select>  
+								</div>
+								<div class="form-group col-sm-5">
+									<input type="text" class="form-control" placeholder="First Name" value="">    
+								</div>
+								<div class="form-group col-sm-5">
+									<input type="text" class="form-control" placeholder="Last Name" value="">    
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-group col-sm">
+									<div class="input-group">
+										<div class="input-group-prepend">
+											<span class="input-group-text" id="">+91</span>
+										</div>
+										<input type="number" class="form-control" placeholder="Mobile Number*" value="">
+									</div>
+								</div>
+								<div class="form-group col-sm">
+									<input type="email" class="form-control" placeholder="Email" value="">
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="form-group col-sm">
+									<select class="form-control">
+									  <option selected>Service Category*</option>
+									  <option value="1">One</option>
+									  <option value="2">Two</option>
+									  <option value="3">Three</option>
+									</select>  
+								</div>
+								<div class="form-group col-sm">
+									<select class="form-control">
+									  <option selected>Services List*</option>
+									  <option value="1">One</option>
+									  <option value="2">Two</option>
+									  <option value="3">Three</option>
+									</select>    
+								</div>
+							</div>
+							<div class="form-group">
+								<textarea class="form-control" id="fbcomment" rows="4" placeholder="Message*"></textarea>
+							</div>
+							<div class="form-row justify-content-between align-items-center">
+								<div class="form-group col-sm-auto">
+									<span class="smltx tcon">* Marked Fields Mandatory</span>
+								</div>
+								<div class="form-group col-sm-auto">
+									<div class="text-right text-left-xs">
+										<button type="button" class="btn btn-primary btn-lg">Submit</button>
+									</div>
+								</div>
+							</div>
+							
+						</form>
+					</div>
+					<div class="tab-pane fade" id="suggestions-on-ui" role="tabpanel" aria-labelledby="suggestions-on-ui-list">
+						<h4 class="fweight-400 border-bottom pb-2 mb-3">Suggestions on User Interface?</h4>
+						<p class="text-muted">Your feedback will help us improve</p>
+						<form>
+							<div class="form-group">
+								<input type="text" class="form-control" id="" placeholder="URL*" value="" required>    
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Reference URL" value="">
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Enter Email Id or Phone Number" value="">
+							</div>
+							<div class="form-group">
+								<textarea class="form-control" rows="4" placeholder="Message*"></textarea>
+							</div>
+							<div class="custom-file mb-3">
+								<input type="file" class="custom-file-input" id="customFile">
+								<label class="custom-file-label" for="customFile">Add File</label>
+							</div>
+							<div class="form-row justify-content-between align-items-center">
+								<div class="form-group col-sm-auto">
+									<span class="smltx tcon">* Marked Fields Mandatory</span>
+								</div>
+								<div class="form-group col-sm-3">
+									<img src="/assets/img/newCaptchaAnchor.gif" alt="" class="img-fluid">
+								</div>
+								<div class="form-group col-sm-auto">
+									<div class="text-right text-left-xs">
+										<button type="button" class="btn btn-primary btn-lg">Submit</button>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="tab-pane fade" id="other-issue" role="tabpanel" aria-labelledby="other-issue-list">
+						<h4 class="fweight-400 border-bottom pb-2 mb-3">Any other issue? </h4>
+						<p class="text-muted">Your feedback will help us improve</p>
+						<form>
+							<div class="form-group">
+								<input type="text" class="form-control" id="" placeholder="Select City Name*" value="">    
+							</div>
+							<div class="form-group">
+								<input type="text" class="form-control" id="fbnamid" placeholder="Name*" value="">
+							</div>
+							<div class="form-group dt">
+								<div class="input-group">
+									<div class="input-group-prepend"><span class="input-group-text" id="">+91</span></div>
+									<input type="number" onkeypress="return isNumber(event,this.id)" class="form-control form-control-bdr-nn" maxlength="10" id="fbmobile" placeholder="Mobile Number*" value="">
+								</div>
+							</div>
+							<div class="form-group">
+								<input type="email" class="form-control" id="fbemail" placeholder="Email ID" value="">
+							</div>
+							<div class="form-group">
+								<textarea class="form-control" id="fbcomment" rows="4" placeholder="Message*"></textarea>
+							</div>
+							<div class="form-row justify-content-between align-items-center">
+								<div class="form-group col-sm-auto">
+									<span class="smltx tcon">* Marked Fields Mandatory</span>
+								</div>
+								<div class="form-group col-sm-auto">
+									<div class="text-right text-left-xs">
+										<button type="button" class="btn btn-primary btn-lg">Submit</button>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div><!--end of How are we doing?-->
+			</div>
+		</div>
+	</div>
+</section>
+<!--
+Footer
+-->
+<a href="#" class="cd-top js-cd-top text-uppercase"><i class="fas fa-car"></i><br>Top</a>
+<div w3-include-html="footer.html"></div>
+<!-- Optional JavaScript --> 
+<!-- jQuery first, then Popper.js, then Bootstrap JS --> 
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> 
+<script src="assets/js/animated-headlines.js"></script> 
+<script src="assets/js/back-to-top.js"></script>
+<script>document.getElementsByTagName("html")[0].className += " js";</script>
+<script src="assets/js/wow.min.js"></script>
+<script>
+	new WOW().init();
+</script>
+<script src="assets/js/mixitup.min.js"></script> 
+<script>
+		var mixer = mixitup('[data-ref~="mixitup-container"]', {
+				selectors: {
+						target: '[data-ref~="mixitup-target"]',
+						control: '[data-mixitup-control]'
+				}
+		});
+</script> 
+<script src="assets/js/owl.carousel.min.js"></script> 
+<script>
+	$(document).ready(function(){
+    $('.domains-carousel').owlCarousel({
+				margin:10,
+				nav:true,
+				dots:false,
+				loop:true,
+				autoplayHoverPause:true,
+				autoplayTimeout: 5000,
+				responsive:{
+						0:{
+								items:1
+						},
+						600:{
+								items:3
+						},
+						1000:{
+								items:5
+						}
         }
     })
-    </script>
-    <script>
-      $(window).scroll(function() {
-        if ($(".navbar").offset().top > 50) {
-          $(".fixed-top").addClass("bg-white");
-          $(".fixed-top").addClass("shadow");
-          $(".fixed-top").addClass("navbarFixed");
-        } else {
-          $(".fixed-top").removeClass("bg-white");
-          $(".fixed-top").removeClass("shadow");
-          $(".fixed-top").removeClass("navbarFixed");
-        }   
-    });
-    </script>
-    <script>
-      $(document).ready(function(){
-        $('.domain-link').hover(function(){
-            $(this).addClass('animated bounceIn');
-        });
-      });
-    </script>
-  </body>
+		// Testimonials Carousel
+		$('.testimonials-carousel').owlCarousel({
+				margin:10,
+				dots:true,
+				autoplay:true,
+				loop:true,
+				autoplayHoverPause:true,
+				autoplayTimeout: 2600,
+				responsive:{
+						0:{
+								items:1
+						},
+						600:{
+								items:1
+						},
+						1000:{
+								items:1
+						}
+        }
+    })
+	});
+</script> 
+<script>
+	$(window).scroll(function() {
+		if ($(".navbar").offset().top > 40) {
+			$(".navbar").addClass("shadow");
+			$(".navbar").addClass("navbarFixed");
+		} else {
+			$(".navbar").removeClass("shadow");
+			$(".navbar").removeClass("navbarFixed");
+		}   
+});
+</script> 
+<script>
+	$(document).ready(function(){
+		$('.domain-link').hover(function(){
+				$(this).addClass('animated bounceIn');
+		});
+	});
+</script>
+<script src="assets/js/jquery.malihu.PageScroll2id.min.js"></script> 
+<script>
+(function($){
+	$(window).on("load",function(){
+		$("a[rel='PageScroll2id']").mPageScroll2id();
+	});
+})(jQuery);
+</script>
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+<script>
+w3.includeHTML();
+</script>
+</body>
 </html>

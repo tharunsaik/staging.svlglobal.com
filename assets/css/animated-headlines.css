@@ -19,11 +19,6 @@
 .cd-headline {
   line-height: 1.2;
 }
-@media only screen and (min-width: 768px) {
-  .cd-headline {
-    font-weight: 300;
-  }
-}
 
 .cd-words-wrapper {
   display: inline-block;

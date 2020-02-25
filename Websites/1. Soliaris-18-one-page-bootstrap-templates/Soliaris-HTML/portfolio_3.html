@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no" /> 
+            <link rel="shortcut icon" href="favicon.ico"/> 
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css">
+            <link href="css/fontello.css" rel="stylesheet" type="text/css"/>
+            <link href="css/animate.css" rel="stylesheet" type="text/css"/>     
+            <link href="css/style.css" rel="stylesheet" type="text/css"/>     
+      <title>SOLIARIS</title>
+  </head>
+  
+<body class="page-style-11 color-style-10">
+    
+    <style id="dynamic-css">
+    
+   </style>
+  
+   <div class="color-piker">
+      <div class="piker-open">
+         <i class="icon-sliders"></i> 
+      </div>
+         <div class="color-wrapper">
+          <h4 class="caption-5 title">Choose your color theme:</h4>
+           <input value="d0be76" class="jscolor" onchange="updateCss(this.jscolor)" id="jscolorid" />
+         </div>
+   </div> 
+    
+     <div class="preloader">
+         <div class="sk-cube-grid selected">
+          <div class="sk-cube sk-cube1"></div>
+          <div class="sk-cube sk-cube2"></div>
+          <div class="sk-cube sk-cube3"></div>
+          <div class="sk-cube sk-cube4"></div>
+          <div class="sk-cube sk-cube5"></div>
+          <div class="sk-cube sk-cube6"></div>
+          <div class="sk-cube sk-cube7"></div>
+          <div class="sk-cube sk-cube8"></div>
+          <div class="sk-cube sk-cube9"></div>
+        </div>
+    </div>
+    
+     <header class="header header-style-2 pos-f-t">
+       <div class="container-custome">
+         <nav class="navbar" role="navigation">
+			<button class="navbar-toggler pull-xs-right mobile-menu col-style-1" type="button" data-toggle="collapse" data-target="#mainNavbarCollapse">
+			    <i class="vertical-align"></i>
+			</button>
+			<a class="navbar-brand vertical-align" href="#">
+			  <img src="img/logo_2.png" alt="">  
+			</a>
+			  <div class="nav-list" id="mainNavbarCollapse">
+				<ul class="nav navbar-nav pull-lg-right">
+					<li class="nav-item drop-link">
+						<a class="nav-link" href="#">Home</a>
+						<i class="icon-down-open-big icon"></i>
+						  <ul class="dropdown-menu">
+						      <li><a href="home_v10.html">Home 1</a></li>
+						      <li><a href="home_v11.html">Home 2</a></li>
+						      <li><a href="home_v12.html">Home 3</a></li>
+						      <li><a href="home_v13.html">Home 4</a></li>
+						      <li><a href="home_v25.html">Home 5</a></li>
+						      <li><a href="home_v30.html">Home 6</a></li>
+						      <li><a href="home_v32.html">Home 7</a></li>
+						  </ul>
+					</li>
+					<li class="nav-item drop-link">
+                        <a class="nav-link" href="#">About</a>
+                        <i class="icon-down-open-big icon"></i>
+						  <ul class="dropdown-menu">
+						      <li><a href="about_1.html">About 1</a></li>
+						      <li><a href="about_2.html">About 2</a></li>
+						  </ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="service.html">Services</a>
+					</li>
+					<li class="nav-item drop-link">
+                        <a class="nav-link active" href="#">Portfolio</a>
+                        <i class="icon-down-open-big icon"></i>
+						  <ul class="dropdown-menu">
+						      <li><a href="portfolio_1.html">Portfolio 1</a></li>
+						      <li><a href="portfolio_2.html">Portfolio 2</a></li>
+						      <li><a href="portfolio_3.html">Portfolio 3</a></li>
+						      <li><a href="portfolio_detail.html">Portfolio detail</a></li>
+						  </ul>
+					</li>
+					<li class="nav-item drop-link">
+                        <a class="nav-link" href="#">Blog</a>
+                        <i class="icon-down-open-big icon"></i>
+						  <ul class="dropdown-menu">
+						      <li><a href="blog.html">Blog</a></li>
+						      <li><a href="blog_post.html">Blog detail</a></li>
+						  </ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+                  </ul>
+			  </div>
+	     </nav>
+	   </div>   
+	 </header>
+    
+     <div class="top-baner">
+        <div class="empty-sp-lg-200 empty-sp-md-160 empty-sp-sm-100 empty-sp-xs-100"></div>
+        <div class="container">
+           <div class="title-style-1">
+                <span class="font-13 sub-title">Projects Gallery</span>
+                 <div class="empty-sp-sm-5 empty-sp-xs-5"></div> 
+                  <h2 class="caption-2">portfolio</h2>
+                   <div class="empty-sp-sm-10 empty-sp-xs-10"></div> 
+                    <div class="simple-text size-2 color-2">
+                        <p>Proin ut lorem tempus, suscipit arcu vitae, sodales odio. Duis and something more then elementum</p>
+                    </div>
+            </div> 
+        </div>
+        <div class="empty-sp-lg-70 empty-sp-md-50 empty-sp-sm-50 empty-sp-xs-30"></div>
+     </div>
+     
+     <section class="section">
+           <div class="container-fluid">
+               <div class="mobile-filter-wrap type-3 color-2">
+                 <div class="change-text"><span>All</span><i class="icon-down-open-big"></i></div>
+                  <ul class="filter-mob-list isotope-filter-list">
+                    <li data-filter="*" class="active">all</li>
+                    <li data-filter=".photo">Photo</li>
+                    <li data-filter=".branding">Branding</li>
+                    <li data-filter=".web">Web-design</li>
+                    <li data-filter=".art">Paint art</li>
+                    <li data-filter=".hand">Hand made</li>
+                  </ul>
+                </div>
+               <div class="empty-sp-lg-80 empty-sp-md-50 empty-sp-sm-50 empty-sp-xs-30"></div>    
+               <div class="row">
+                  <div class="izotope-container size-2">
+                <div class="grid-sizer"></div>
+                   <div class="item col-25 branding hand">
+                    <div class="portfolio-item-1 type-2">
+                       <div class="image">
+                          <a href="#" class="layer"><span class="l-border"></span>
+                             <div class="desc vertical-align full">
+                                <h4 class="caption-4 color-1">ArtSolution</h4>
+                                 <div class="empty-sp-sm-10 empty-sp-xs-10"></div> 
+                                  <span class="sub-caption">branding</span>
+                             </div> 
+                          </a>
+                        <img src="img/portfolio/portfolio_1_1.jpg" alt="" class="resp-img">
+                       </div> 
+                    </div>
+                   </div>
+                   <div class="item col-25 branding photo">
+                    <div class="portfolio-item-1 type-2">
+                       <div class="image">
+                          <a href="#" class="layer"><span class="l-border"></span>
+                             <div class="desc vertical-align full">
+                                <h4 class="caption-4 color-1">ArtSolution</h4>
+                                 <div class="empty-sp-sm-10 empty-sp-xs-10"></div> 
+                                  <span class="sub-caption">branding</span>
+                             </div> 
+                          </a>
+                        <img src="img/portfolio/portfolio_1_2.jpg" alt="" class="resp-img">
+                       </div> 
+                    </div>
+                   </div>
+                   <div class="item col-25 web hand">
+                    <div class="portfolio-item-1 type-2">
+                       <div class="image">
+                          <a href="#" class="layer"><span class="l-border"></span>
+                             <div class="desc vertical-align full">
+                                <h4 class="caption-4 color-1">ArtSolution</h4>
+                                 <div class="empty-sp-sm-10 empty-sp-xs-10"></div> 
+                                  <span class="sub-caption">branding</span>
+                             </div> 
+                          </a>
+                        <img src="img/portfolio/portfolio_1_3.jpg" alt="" class="resp-img">
+                       </div> 
+                    </div>
+                   </div>
+                   <div class="item col-25 photo web">
+                    <div class="portfolio-item-1 type-2">
+                       <div class="image">
+                          <a href="#" class="layer"><span class="l-border"></span>
+                             <div class="desc vertical-align full">
+                                <h4 class="caption-4 color-1">ArtSolution</h4>
+                                 <div class="empty-sp-sm-10 empty-sp-xs-10"></div> 
+                                  <span class="sub-caption">branding</span>
+                             </div> 
+                          </a>
+                        <img src="img/portfolio/portfolio_1_4.jpg" alt="" class="resp-img">
+                       </div> 
+                    </div>
+                   </div>
+                   <div class="item col-25 art branding wow fadeInUp">
+                    <div class="portfolio-item-1 type-2">
+                       <div class="image">
+                          <a href="#" class="layer"><span class="l-border"></span>
+                             <div class="desc vertical-align full">
+                                <h4 class="caption-4 color-1">ArtSolution</h4>
+                                 <div class="empty-sp-sm-10 empty-sp-xs-10"></div> 
+                                  <span class="sub-caption">branding</span>
+                             </div> 
+                          </a>
+                        <img src="img/portfolio/portfolio_1_5.jpg" alt="" class="resp-img">
+                       </div> 
+                    </div>
+                   </div>
+                   <div class="item col-25 art hand wow fadeInUp">
+                    <div class="portfolio-item-1 type-2">
+                       <div class="image">
+                          <a href="#" class="layer"><span class="l-border"></span>
+                             <div class="desc vertical-align full">
+                                <h4 class="caption-4 color-1">ArtSolution</h4>
+                                 <div class="empty-sp-sm-10 empty-sp-xs-10"></div> 
+                                  <span class="sub-caption">branding</span>
+                             </div> 
+                          </a>
+                        <img src="img/portfolio/portfolio_1_6.jpg" alt="" class="resp-img">
+                       </div> 
+                    </div>
+                   </div>
+                   <div class="item col-25 photo web wow fadeInUp">
+                    <div class="portfolio-item-1 type-2">
+                       <div class="image">
+                          <a href="#" class="layer"><span class="l-border"></span>
+                             <div class="desc vertical-align full">
+                                <h4 class="caption-4 color-1">ArtSolution</h4>
+                                 <div class="empty-sp-sm-10 empty-sp-xs-10"></div> 
+                                  <span class="sub-caption">branding</span>
+                             </div> 
+                          </a>
+                        <img src="img/portfolio/portfolio_1_7.jpg" alt="" class="resp-img">
+                       </div> 
+                    </div>
+                   </div>
+                   <div class="item col-25 web art wow fadeInUp">
+                    <div class="portfolio-item-1 type-2">
+                       <div class="image">
+                          <a href="#" class="layer"><span class="l-border"></span>
+                             <div class="desc vertical-align full">
+                                <h4 class="caption-4 color-1">ArtSolution</h4>
+                                 <div class="empty-sp-sm-10 empty-sp-xs-10"></div> 
+                                  <span class="sub-caption">branding</span>
+                             </div> 
+                          </a>
+                        <img src="img/portfolio/portfolio_1_8.jpg" alt="" class="resp-img">
+                       </div> 
+                    </div>
+                   </div>
+                   <div class="item col-25 photo hand wow fadeInUp">
+                    <div class="portfolio-item-1 type-2">
+                       <div class="image">
+                          <a href="#" class="layer"><span class="l-border"></span>
+                             <div class="desc vertical-align full">
+                                <h4 class="caption-4 color-1">ArtSolution</h4>
+                                 <div class="empty-sp-sm-10 empty-sp-xs-10"></div> 
+                                  <span class="sub-caption">branding</span>
+                             </div> 
+                          </a>
+                        <img src="img/portfolio/portfolio_1_9.jpg" alt="" class="resp-img">
+                       </div> 
+                    </div>
+                   </div>
+                   <div class="item col-25 branding art wow fadeInUp">
+                    <div class="portfolio-item-1 type-2">
+                       <div class="image">
+                          <a href="#" class="layer"><span class="l-border"></span>
+                             <div class="desc vertical-align full">
+                                <h4 class="caption-4 color-1">ArtSolution</h4>
+                                 <div class="empty-sp-sm-10 empty-sp-xs-10"></div> 
+                                  <span class="sub-caption">branding</span>
+                             </div> 
+                          </a>
+                        <img src="img/portfolio/portfolio_1_10.jpg" alt="" class="resp-img">
+                       </div> 
+                    </div>
+                   </div>
+               </div> 
+               </div>    
+           </div> 
+     </section>
+    
+     
+     <footer class="footer-style-4 type-2">
+      <div class="empty-sp-md-70 empty-sp-sm-50 empty-sp-xs-50"></div>
+       <div class="container">
+           <div class="row">
+               <div class="col-lg-3 col-sm-6 col-xs-12">
+                   <div class="footer-item">
+                       <div class="logo-footer">
+                          <a href="#"><img src="img/logo_2.png" alt=""></a>
+                       </div>
+                         <div class="empty-sp-sm-30 empty-sp-xs-20"></div> 
+                          <ul class="footer-address">
+                              <li><p>198 West 21th Street, Suite 721, New York
+5109 Pacific Coast Highway, Los Angeles</p></li>
+                              <li><a href="mailto:">Email: youremail@yourdomain.com</a></li>
+                              <li><a href="tel:">Phone: +88 (0) 101 5682 000</a></li>
+                          </ul>
+                          <div class="empty-sp-sm-10 empty-sp-xs-10"></div> 
+                          <div class="folow type-1">
+                            <a href="#" target="_blank"><i class="icon-facebook"></i></a>
+                            <a href="#" target="_blank"><i class="icon-instagram"></i></a>
+                            <a href="#" target="_blank"><i class="icon-pinterest"></i></a>
+                            <a href="#" target="_blank"><i class="icon-twitter"></i></a>
+                          </div>  
+                   </div>
+                   <div class="empty-sp-md-0 empty-sp-sm-30 empty-sp-xs-50"></div>
+               </div>
+               <div class="col-lg-3 col-sm-6 col-xs-12">
+                   <div class="footer-item">
+                       <h5 class="title caption-5">Recent news</h5>
+                       <div class="empty-sp-sm-30 empty-sp-xs-20"></div>
+                         <div class="recent-mini-link">
+                             <a href="#" class="caption-6 lg">Donec vel est nec nulla ullamco</a>
+                               <span><i>Sep 9, 2015</i></span>
+                         </div>
+                         <div class="recent-mini-link">
+                             <a href="#" class="caption-6 lg">Ten Ways to Increase Web Traffic</a>
+                               <span><i>Sep 9, 2015</i></span>
+                         </div>
+                         <div class="recent-mini-link">
+                             <a href="#" class="caption-6 lg">Man who groves up stunning</a>
+                               <span><i>Sep 9, 2015</i></span>
+                         </div>
+                   </div>
+                   <div class="empty-sp-md-30 empty-sp-sm-30 empty-sp-xs-30"></div>
+               </div> 
+               <div class="col-lg-3 col-sm-6 col-xs-12">
+                   <div class="footer-item">
+                       <h5 class="title caption-5">instagram</h5>
+                       <div class="empty-sp-sm-30 empty-sp-xs-20"></div>
+                         <div class="footer-instagram">
+                             <a href="#"><img src="img/inst_img_10.jpg" alt=""></a>
+                             <a href="#"><img src="img/inst_img_11.jpg" alt=""></a>
+                             <a href="#"><img src="img/inst_img_12.jpg" alt=""></a>
+                             <a href="#"><img src="img/inst_img_13.jpg" alt=""></a>
+                             <a href="#"><img src="img/inst_img_14.jpg" alt=""></a>
+                             <a href="#"><img src="img/inst_img_15.jpg" alt=""></a> 
+                         </div>
+                   </div>
+                   <div class="empty-sp-md-0 empty-sp-sm-20 empty-sp-xs-30"></div>
+               </div>
+               <div class="col-lg-3 col-sm-6 col-xs-12">
+                   <div class="footer-item">
+                       <h5 class="title caption-5">keep in touch</h5>
+                       <div class="empty-sp-sm-20 empty-sp-xs-20"></div>
+                         <form action="#" class="footer-form">
+                             <div class="simple-text size-1">
+                                 <p>Support online is available 24 hours day, 
+get in touch. so you write to us anytime:</p>
+                             </div>
+                             <div class="empty-sp-sm-15 empty-sp-xs-15"></div>
+                             <div class="input-group input-style-1 sm">
+                                 <input type="text" placeholder="Enter your name..." name="name" class="form-control" required>
+                             </div>
+                             <div class="empty-sp-sm-20 empty-sp-xs-20"></div>
+                             <div class="input-group input-style-1 sm">
+                                 <input type="email" placeholder="Enter your mail..." name="name" class="form-control" required>
+                             </div>
+                             <div class="empty-sp-sm-30 empty-sp-xs-20"></div>
+                             <input type="submit" value="subscribe" class="submit">
+                         </form>
+                   </div>
+                   <div class="empty-sp-md-0 empty-sp-sm-20 empty-sp-xs-20"></div>
+               </div> 
+           </div>
+           <div class="empty-sp-lg-50 empty-sp-md-30 empty-sp-sm-20 empty-sp-xs-10"></div>
+           <div class="row">
+               <div class="col-md-12">
+                    <div class="copyright">
+                       <span>© 2016 All rights reserved. Development with <i class="icon-heart"></i> by</span>
+                         <a href="#"> ElectricBlaze</a>
+                    </div>
+               </div>
+           </div>
+           <div class="empty-sp-md-50 empty-sp-md-50 empty-sp-sm-50 empty-sp-xs-20"></div>
+       </div> 
+   </footer>
+
+
+<script>
+	function submitForm() {
+		$.ajax({type:'POST', url:'email-action.php', data:$('#contact-form').serialize(), success: function(response) {
+		   $('.submit').html('send');
+		   $('.thanks-popup').addClass('active');
+		   document.contactform.reset();                                 
+		}});                
+		return false;
+	}	
+</script>                            
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/js/bootstrap.min.js"></script>	 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.1/isotope.pkgd.min.js"></script>
+<script src="js/jarallax.js"></script>
+<script src="js/jquery.countTo.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/jscolor.js"></script>
+<script src="js/color-piker.js"></script>
+<script src="js/all.js"></script>
+</body>
+</html>	     

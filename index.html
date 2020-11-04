@@ -5,9 +5,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.3/dist/css/uikit.min.css" />
 <link rel="stylesheet" href="assets/css/svl-global.css">
 <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 <link rel="stylesheet" href="assets/css/animated-headlines.css">
 <link rel="stylesheet" href="assets/css/hover-min.css">
@@ -24,8 +25,8 @@
 Sign Up Modal
 -->
 <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="signUpModalLabel" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered modal-sm" role="document">
-		<div class="modal-content rounded-0 border-2 border-primary">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
 		  <div class="modal-header">
 			<h5 class="modal-title" id="signUpModalLabel">Sign Up</h5>
 			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -69,8 +70,8 @@ Sign Up Modal
 Sign In Modal
 -->
 <div class="modal fade" id="signInModal" tabindex="-1" role="dialog" aria-labelledby="signInModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
-    <div class="modal-content rounded-0 border-2 border-primary">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="signInModalLabel">Sign In</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -101,7 +102,7 @@ Sign In Modal
 					<label class="form-check-label" for="inlineCheckbox1">Remember me</label>
 				</div>
 			</div>
-			<a type="submit" class="btn btn-primary btn-block" href="dashboard.html">Submit</a>
+			<a type="submit" class="btn btn-primary btn-block" href="http://myaccount.svlglobal.com/" target="_blank">Submit</a>
 		</form>
       </div>
 			<div class="modal-footer text-center">
@@ -114,8 +115,8 @@ Sign In Modal
 Forgot Password Modal
 -->
 <div class="modal fade" id="forgotPassModal" tabindex="-1" role="dialog" aria-labelledby="forgotPassModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
-    <div class="modal-content rounded-0 border-2 border-primary">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="forgotPassModalLabel">Forgot Password</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -141,8 +142,8 @@ Forgot Password Modal
 Map Share
 -->
 <div class="modal fade" id="shareMapModal" tabindex="-1" role="dialog" aria-labelledby="shareMapModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-sm" role="document">
-    <div class="modal-content rounded-0 border-2 border-primary">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="shareMapModalLabel">Sign In</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -189,19 +190,19 @@ Topbar
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm">
-                <nav class="nav nav-divided justify-content-start a-py-2">
+                <nav class="nav nav-divided justify-content-center justify-content-sm-start a-py-2 a-px-2 a-px-sm-4">
 					<a href="#mail-us" class="nav-link" rel="PageScroll2id" data-ps2id-offset="50"><i class="fas fa-envelope"></i> Email: info@svlglobal.com</a>
 					<a href="#contact-us" class="nav-link" rel="PageScroll2id" data-ps2id-offset="20"><i class="fas fa-map-marker-alt"></i> Contact Us</a>
 				</nav>
             </div>
             <div class="col-sm">
-                <nav class="nav nav-divided justify-content-end a-py-2">
-					<a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
-					<a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
-					<a href="#" class="nav-link"><i class="fab fa-linkedin-in"></i></a>
-					<a href="#" class="nav-link"><i class="fab fa-instagram"></i></a>
-					<a href="#" class="nav-link"><i class="fab fa-youtube"></i></a>
-					<a href="#" class="nav-link">SVLG Blog</a>
+                <nav class="nav nav-divided justify-content-center justify-content-sm-end a-py-2 a-px-4">
+					<a href="#" class="nav-link d-none d-sm-flex"><i class="fab fa-facebook-f"></i></a>
+					<a href="#" class="nav-link d-none d-sm-flex"><i class="fab fa-twitter"></i></a>
+					<a href="#" class="nav-link d-none d-sm-flex"><i class="fab fa-linkedin-in"></i></a>
+					<a href="#" class="nav-link d-none d-sm-flex"><i class="fab fa-instagram"></i></a>
+					<a href="#" class="nav-link d-none d-sm-flex"><i class="fab fa-youtube"></i></a>
+					<a href="http://blog.svlglobal.com/" target="_blank" class="nav-link">SVLG Blog</a>
 					<a href="#" class="nav-link" data-toggle="modal" data-target="#signUpModal">Sign-Up</a>
 					<a href="#" class="nav-link" data-toggle="modal" data-target="#signInModal">Sign-In</a>
 				</nav>
@@ -213,76 +214,80 @@ Topbar
 Navbar
 -->
 <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top" data-hover="dropdown">
-    <div class="container-fluid"> <a class="navbar-brand" href="http://staging.svlglobal.com/"><img src="assets/img/svl-global-logo.svg" alt="" height="40"></a>
+    <div class="container-fluid">
+		<a class="navbar-brand" href="http://staging.svlglobal.com/">
+			<img src="assets/img/svl-global-logo.svg" alt="" width="130px">
+		</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHome" aria-controls="navbarHome" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
         <div class="collapse navbar-collapse" id="navbarHome">
-            <div class="navbar-nav ml-auto align-items-center"> <a class="nav-item nav-link" href="http://staging.svlglobal.com/"><i class="fas fa-home"></i></a>
+            <div class="navbar-nav ml-auto align-items-sm-center">
+				<a class="nav-item nav-link" href="http://staging.svlglobal.com/"><i class="fas fa-home"></i></a>
                 <div class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" data-hover="dropdown"> About </a>
                     <div class="dropdown-menu animated flipInY " aria-labelledby="aboutDropdown">
-						<a class="dropdown-item" href="#">Why S V L</a>
-						<a class="dropdown-item" href="#">Life @ S V L</a>
-						<a class="dropdown-item" href="#">Our Core Values</a>
-						<a class="dropdown-item" href="#">Vision &amp; Mission</a>
-						<a class="dropdown-item" href="#">Key Factors</a>
-						<a class="dropdown-item" href="#">Quality</a>
-						<a class="dropdown-item" href="#">CSR</a>
+						<a class="dropdown-item" href="about.html#WhySVL">Why S V L</a>
+						<a class="dropdown-item" href="about.html#LifeSVL">Life @ S V L</a>
+						<a class="dropdown-item" href="about.html#OurCoreValues">Our Core Values</a>
+						<a class="dropdown-item" href="about.html#VisionMission">Vision &amp; Mission</a>
+						<a class="dropdown-item" href="about.html#KeyFactors">Key Factors</a>
+						<a class="dropdown-item" href="about.html#Quality">Quality</a>
+						<a class="dropdown-item" href="about.html#CSR">CSR</a>
 					</div>
                 </div>
                 <div class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Services </a>
 					<div class="dropdown-menu animated flipInY" aria-labelledby="servicesDropdown">
-						<a class="dropdown-item" href="#">T-Pilots</a>
-						<a class="dropdown-item" href="#">Car Care</a>
-						<a class="dropdown-item" href="#">Road Assist</a>
-						<a class="dropdown-item" href="#">Pro Insure</a>
-						<a class="dropdown-item" href="#">Promo Care</a>
-						<a class="dropdown-item" href="#">Techno Labs</a>
-						<a class="dropdown-item" href="#">Apps Info</a>
+						<a class="dropdown-item" href="services.html#T-Pilots">T-Pilots</a>
+						<a class="dropdown-item" href="services.html#CarCare">Car Care</a>
+						<a class="dropdown-item" href="services.html#RoadAssist">Road Assist</a>
+						<a class="dropdown-item" href="services.html#ProInsure">Pro Insure</a>
+						<a class="dropdown-item" href="services.html#PromoCare">Promo Care</a>
+						<a class="dropdown-item" href="services.html#TechnoLabs">Techno Labs</a>
+						<a class="dropdown-item" href="services.html#AppsInfo">Apps Info</a>
 					</div>
                 </div>
                 <div class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="visionDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Vision </a>
 					<div class="dropdown-menu animated flipInY" aria-labelledby="visionDropdown">
-						<a class="dropdown-item" href="#">Global Vision</a>
-						<a class="dropdown-item" href="#">Travel</a>
-						<a class="dropdown-item" href="#">Transport</a>
-						<a class="dropdown-item" href="#">Fleet Management</a>
-						<a class="dropdown-item" href="#">Doorstep Services</a>
-						<a class="dropdown-item" href="#">Fleet Insurance</a>
-						<a class="dropdown-item" href="#">Branding Services</a>
-						<a class="dropdown-item" href="#">Technology</a>
-						<a class="dropdown-item" href="#">Vocational Courses</a>
+						<a class="dropdown-item" href="vision.html">Global Vision</a>
+						<a class="dropdown-item" href="vision.html">Travel</a>
+						<a class="dropdown-item" href="vision.html">Transport</a>
+						<a class="dropdown-item" href="vision.html">Fleet Management</a>
+						<a class="dropdown-item" href="vision.html">Doorstep Services</a>
+						<a class="dropdown-item" href="vision.html">Fleet Insurance</a>
+						<a class="dropdown-item" href="vision.html">Branding Services</a>
+						<a class="dropdown-item" href="vision.html">Technology</a>
+						<a class="dropdown-item" href="vision.html">Vocational Courses</a>
 					</div>
                 </div>
                 <div class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="missionDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Mission </a>
 					<div class="dropdown-menu animated flipInY" aria-labelledby="missionDropdown">
-						<a class="dropdown-item" href="#">Global Expansion</a>
-						<a class="dropdown-item" href="#">Network</a>
-						<a class="dropdown-item" href="#">Flexi Payments</a>
-						<a class="dropdown-item" href="#">Transparency</a>
-						<a class="dropdown-item" href="#">Reliability</a>
-						<a class="dropdown-item" href="#">Safety &amp; Security</a>
-						<a class="dropdown-item" href="#">Women Power</a>
-						<a class="dropdown-item" href="#">Satisfaction</a>
-						<a class="dropdown-item" href="#">Helping Hands</a>
+						<a class="dropdown-item" href="mission.html">Global Expansion</a>
+						<a class="dropdown-item" href="mission.html">Network</a>
+						<a class="dropdown-item" href="mission.html">Flexi Payments</a>
+						<a class="dropdown-item" href="mission.html">Transparency</a>
+						<a class="dropdown-item" href="mission.html">Reliability</a>
+						<a class="dropdown-item" href="mission.html">Safety &amp; Security</a>
+						<a class="dropdown-item" href="mission.html">Women Power</a>
+						<a class="dropdown-item" href="mission.html">Satisfaction</a>
+						<a class="dropdown-item" href="mission.html">Helping Hands</a>
 					</div>
                 </div>
-                <a class="nav-item ml-2" href="https://svl5g.app/" target="_blank"><img src="assets/img/svl-5g-app.svg" alt="" height="40"></a>
+                <a class="nav-item ml-2" href="https://svl5g.app/" target="_blank"><img src="assets/img/svl-5g-app.svg" alt="" width="130px"></a>
             </div>
         </div>
     </div>
 </nav><!--
 Main Banner
 -->
-<section class="p-0 position-relative height-900-responsive ie-height-800 bg-grad pattern-overlay-1 overflow-hidden">
-    <div class="container d-flex h-100">
-        <div class="row w-100"> 
-            <!-- banner Content -->
-            <div class="col-sm-5 mt-5 text-white animated fadeInLeft">
-                <h1 class="cd-headline letters rotate-2 mt-5"> <span>Innovative Futuristic</span> <span class="cd-words-wrapper"> <b class="is-visible">Research</b> <b>Development</b> </span> </h1>
-                <p class="mb-4 font-weight-normal d-none d-sm-block">Delivering Value to all our Customers with Highest Quality &amp; Transparency by Ensuring Optimized Availability vs Occupancy.</p>
-				<a href="#" class="btn btn-primary float-right">View More</a>
+<section id="IntroSection" class="p-0 position-relative height-900-responsive ie-height-800 bg-grad pattern-overlay-1 overflow-hidden">
+    <div class="container">
+        <div class="row"> 
+			<!-- banner Content -->
+            <div class="col-sm-5 banner-content mt-5 text-white animated fadeInLeft">
+                <h1 class="cd-headline letters rotate-2 mt-5 text-white"> <span>Innovative Futuristic</span> <span class="cd-words-wrapper"> <b class="is-visible">Research</b> <b>Development</b> </span> </h1>
+                <p class="mb-4 font-weight-normal d-none d-sm-block text-white">Delivering Value to all our Customers with Highest Quality &amp; Transparency by Ensuring Optimized Availability vs Occupancy.</p>
+				<a href="http://staging.svltechnolabs.com/" class="btn btn-primary float-right" target="_blank">View More</a>
             </div>
             <!-- banner image -->
             <div class="col-sm-7 p-0 position-absolute top-0 right-0 align-top align-text-top">
@@ -323,11 +328,11 @@ Domains
         <div class="col">
             <div class="card shadow-lg domains">
                 <nav class="domains-carousel owl-carousel owl-theme nav">
-					<a class="item nav-link hvr-push w-100" href="http://tpilots.com/" target="_blank"><img src="assets/img/svltpilots.svg" alt="SVL T-Pilots"></a>
-					<a class="item nav-link hvr-push w-100" href="http://svlcarcare.com/" target="_blank"><img src="assets/img/svlcarcare.svg" alt="SVL Car Care"></a>
-					<a class="item nav-link hvr-push w-100" href="http://svlroadassist.com/" target="_blank"><img src="assets/img/svlroadassist.svg" alt="SVL Road Assist"></a>
-					<a class="item nav-link hvr-push w-100" href="http://svlproinsure.com/" target="_blank"><img src="assets/img/svlproinsure.svg" alt="SVL Pro Insure"></a>
-					<a class="item nav-link hvr-push w-100" href="http://svlpromocare.com/" target="_blank"><img src="assets/img/svlpromocare.svg" alt="SVL Promo Care"></a>
+					<a class="item nav-link hvr-push w-100" href="http://staging.tpilots.com/" target="_blank"><img src="assets/img/svltpilots.svg" alt="SVL T-Pilots"></a>
+					<a class="item nav-link hvr-push w-100" href="http://staging.svlcarcare.com/" target="_blank"><img src="assets/img/svlcarcare.svg" alt="SVL Car Care"></a>
+					<a class="item nav-link hvr-push w-100" href="http://staging.svlroadassist.com/" target="_blank"><img src="assets/img/svlroadassist.svg" alt="SVL Road Assist"></a>
+					<a class="item nav-link hvr-push w-100" href="http://staging.svlproinsure.com/" target="_blank"><img src="assets/img/svlproinsure.svg" alt="SVL Pro Insure"></a>
+					<a class="item nav-link hvr-push w-100" href="http://staging.svlpromocare.com/" target="_blank"><img src="assets/img/svlpromocare.svg" alt="SVL Promo Care"></a>
 				</nav>
             </div>
         </div>
@@ -336,12 +341,14 @@ Domains
 <!--
 About SVL Global
 -->
-<section class="py-5">
+<section id="AboutSection" class="py-5 min-vh-100">
     <div class="container">
         <div class="row">
-            <div class="col-sm"> <img src="assets/img/hero-2.png" alt="" class="img-fluid wow fadeInRight"> </div>
+            <div class="col-sm">
+				<img src="assets/img/hero-2.png" alt="" class="img-fluid wow fadeInRight">
+			</div>
             <div class="col-sm wow fadeIn">
-                <h1 class="text-primary mb-4">About <span class="text-warning">SVL Global</span></h1>
+                <h1 class="text-primary my-4">About <span class="text-warning">SVL Global</span></h1>
                 <p class="mb-5">AI &amp; ML Driven Custom-Application-Development Company having 5 products to ensure guaranteed Customer satisfaction.</p>
                 <ul class="list-unstyled">
                     <li class="media"> <img src="assets/img/pencil.png" class="mr-3" alt="...">
@@ -361,7 +368,7 @@ About SVL Global
 <!--
 Our Priorities
 -->
-<section class="bg-light py-5">
+<section id="PrioritiesSection" class="min-vh-100 bg-light py-5 d-flex align-items-center">
 	<div class="container">
 		<div class="row align-items-center">
 			<div class="col-sm-4">
@@ -375,7 +382,7 @@ Our Priorities
 			</div>
 			<div class="col-sm">
 				<div class="card card-body py-5 img-border-item text-center" style="border-image: url(/assets/img/portfolio_home10_6.jpg) 15 round round;">
-					<h4 class="text-uppercase fweight-400">good decisions come from hard work</h4>
+					<h4 class="text-uppercase fweight-500">good decisions come from hard work</h4>
 					<p class="text-muted font-size-2 fweight-400">Lorem ipsum dolor sit amet, animals consectetur adipiscing Curabitur feugiat feugiat bibendum  amet iaculis</p>
 					<div class="row">
 						<div class="col-sm-4">
@@ -408,7 +415,7 @@ Our Priorities
 <!--
 Services
 -->
-<section class="py-5">
+<section id="PortfolioSection" class="py-5 d-flex align-items-center min-vh-100">
     <div class="container">
         <div class="row">
             <div class="col-12 animated fadeIn">
@@ -712,64 +719,66 @@ Services
 <!--
 Download App
 -->
-<section class="bg-light py-5">
+<section id="DownloadAppSection" class="d-flex align-items-center py-5 bg-dark text-white" uk-height-viewport>
 	<div class="container">
 		<div class="row align-items-center">
-			<div class="col-sm wow fadeInRight">
-				<h2 class="text-primary">Get our <span class="text-warning">5G App</span> from the Store</h2>
-				<p class="fweight-400 text-muted">Download the app for exclusive deals and ease of booking </p>
-				<nav class="nav a-pl-0 mb-4">
-					<a href="#" class="nav-link">
-						<img src="assets/img/Download_on_the_App_Store_Badge.svg" alt="" height="50">
+			<div class="col-sm-5 order-sm-last" uk-scrollspy="cls:uk-animation-slide-bottom; repeat: true; delay: 500">
+				<img src="assets/img/iPhone.png" alt="" class="img-fluid">
+			</div>
+			<div class="col-sm" uk-scrollspy="cls:uk-animation-slide-left; repeat: true; delay: 500">
+				<h1 class="text-white text-center text-sm-left font-size-10">Get our <span class="text-warning">5G App</span> <span class="d-none d-sm-inline-flex"> from the Store</span></h1>
+				<p class="fweight-400 grey-500">Download the app for exclusive deals and ease of booking </p>
+				<nav class="nav nav-fill a-mx-2 a-px-0 mb-4">
+					<a href="#" class="nav-item nav-link">
+						<img src="assets/img/badge-apple.svg" alt="">
 					</a>
-					<a href="#" class="nav-link">
-						<img src="assets/img/google-play-badge.svg" alt="" height="50">
+					<a href="#" class="nav-item nav-link">
+						<img src="assets/img/badge-google.svg" alt="">
 					</a>
-					<a href="#" class="nav-link">
-						<img src="assets/img/get-it-from-microsoft.svg" alt="" height="50">
+					<a href="#" class="nav-item nav-link">
+						<img src="assets/img/badge-microsoft.svg" alt="">
 					</a>
 				</nav>
 				<div class="row">
 					<div class="col-sm-6">
 						<div class="media mb-3">
-							<i class="fas fa-bullseye fa-2x mr-3"></i>
+							<i class="fas fa-bullseye fa-2x mr-3 grey-400"></i>
 							<div class="media-body">
-								<h6 class="mt-0 fweight-400">Media heading</h6>
-								<p class="font-size-2 fweight-400 text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, corporis, accusantium? Tempore itaque cupiditate</p>
+								<h6 class="mt-0 fweight-400 grey-400">Absolute Convenience</h6>
+								<p class="font-size-2 fweight-400 grey-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, corporis</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-sm-6">
 						<div class="media mb-3">
-							<i class="fas fa-bullseye fa-2x mr-3"></i>
+							<i class="fas fa-bullseye fa-2x mr-3 grey-400"></i>
 							<div class="media-body">
-								<h6 class="mt-0 fweight-400">Media heading</h6>
-								<p class="font-size-2 fweight-400 text-muted">recusandae facere amet optio, officia accusantium ad at similique illo corporis eius nostrum, blanditiis deserunt alias.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6">
-						<div class="media mb-3">
-							<i class="fas fa-bullseye fa-2x mr-3"></i>
-							<div class="media-body">
-								<h6 class="mt-0 fweight-400">Media heading</h6>
-								<p class="font-size-2 fweight-400 text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, corporis, accusantium? Tempore itaque cupiditate</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6">
-						<div class="media mb-3">
-							<i class="fas fa-bullseye fa-2x mr-3"></i>
-							<div class="media-body">
-								<h6 class="mt-0 fweight-400">Media heading</h6>
-								<p class="font-size-2 fweight-400 text-muted">recusandae facere amet optio, officia accusantium ad at similique illo corporis eius nostrum, blanditiis deserunt alias.</p>
+								<h6 class="mt-0 fweight-400 grey-400">Transparent Billing</h6>
+								<p class="font-size-2 fweight-400 grey-500">accusantium? Tempore itaque cupiditate recusandae facere amet optio, officia</p>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-sm-5 wow slideInUp">
-				<img src="assets/img/iPhone.png" alt="" class="img-fluid">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="media mb-3">
+							<i class="fas fa-bullseye fa-2x mr-3 grey-400"></i>
+							<div class="media-body">
+								<h6 class="mt-0 fweight-400 grey-400">Time &amp; Cost Savings</h6>
+								<p class="font-size-2 fweight-400 grey-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, corporis</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="media mb-3">
+							<i class="fas fa-bullseye fa-2x mr-3 grey-400"></i>
+							<div class="media-body">
+								<h6 class="mt-0 fweight-400 grey-400">One Clikc for All Services</h6>
+								<p class="font-size-2 fweight-400 grey-500">accusantium? Tempore itaque cupiditate recusandae facere amet optio, officia</p>
+							</div>
+						</div>
+					</div>
+				</div>	
 			</div>
 		</div>
 	</div>
@@ -777,11 +786,11 @@ Download App
 <!--
 Testimonials
 -->
-<section class="py-5 testimonials bg-blue-50">
+<section id="TestimonialsSection" class="min-vh-100 d-flex align-items-center py-5 testimonials bg-blue-50 position-relative">
 	<div class="container py-5">
 		<div class="row align-items-center">
 			<div class="col-sm-8">
-				<h2 class="heading text-uppercase text-center mb-5 position-relative">Testimonials</h2>
+				<h2 class="heading text-uppercase text-center mb-5 position-relative">WHAT OUR CUSTOMER SAYS!</h2>
 				<div class="testimonials-carousel owl-carousel owl-theme">
 					<div class="item row align-items-center justify-content-center">
 						<div class="col-sm-2">
@@ -829,10 +838,10 @@ Testimonials
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-sm-3 text-center">
-				<a href="#" class="btn btn-warning rounded-pill shadow my-4">Feedback</a><br>
-				<a href="#" class="btn btn-primary rounded-pill shadow my-4">Reviews - Dashboard</a>
+				<nav class="nav justify-content-center a-mx-2">
+					<a href="#" class="nav-item nav-link btn btn-primary shadow my-5 fweight-500">Reviews - Dashboard</a>
+					<a href="#" class="nav-item nav-link btn btn-warning shadow my-5 text-white fweight-500">Feedback</a>
+				</nav>
 			</div>
 		</div>
 	</div>
@@ -840,18 +849,17 @@ Testimonials
 <!--
 Contact Us
 -->
-<section class="contact-us">
-	<header class="bg-light py-5" id="contact-us">
+<section id="ContactSection" class="contact-us">
+	<header class="min-vh-100 d-flex align-items-center bg-light py-5" id="contact-us">
 		<div class="container">
 			<div class="row">
 				<div class="col">
-					<h2 class="heading text-uppercase text-center mb-5 position-relative">Contact Us</h2>
-					<p class=" text-center font-size-2 fweight-400 text-muted mb-3">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+					<h2 class="heading text-uppercase text-center mb-3 position-relative">Contact Us</h2>
 				</div>
 			</div>
 			<div class="row py-4">
 				<div class="col-sm">
-					<div class="list-group list-group-flush">
+					<div class="list-group list-group-flush mb-3">
 						<a href="#" class="list-group-item list-group-item-action">
 							<h5>Registered and Corporate Office</h5>
 							<h6 class="text-muted my-3">SVL Global</h6>
@@ -871,20 +879,19 @@ Contact Us
 				</div>
 				<div class="col-sm position-relative">
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.31698248573!2d78.26795853991645!3d17.4122998009489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1581677103531!5m2!1sen!2sin" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-					<a class="btn btn-warning position-absolute map-share-btn rounded-pill" href="#" role="button" data-toggle="modal" data-target="#shareMapModal">Get Location Info <i class="fas fa-share"></i></a>
+					<a class="btn btn-primary position-absolute map-share-btn fweight-500" href="#" role="button" data-toggle="modal" data-target="#shareMapModal">Get Location Info <i class="fas fa-share"></i></a>
 				</div>
 			</div>
 		</div>
 	</header>
-	<div class="container">
-		
+	<div class="container min-vh-100">
 		<div class="row pt-5" id="mail-us">
 			<div class="col-sm-3 hidden-xs">
-				<div class="nav flex-column nav-pills nav-fill contact-us-tabs" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-					<a class="nav-link active" id="feed-on-info-list" data-toggle="pill" href="#feed-on-info" role="tab" aria-controls="FeedbackOnInfo" aria-selected="true">Feedback on Information Provided By SVL</a>
+				<div class="nav flex-column nav-pills nav-fill contact-us-tabs mb-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+					<a class="nav-link active" id="feed-on-info-list" data-toggle="pill" href="#feed-on-info" role="tab" aria-controls="FeedbackOnInfo" aria-selected="true">Feedback on 5G-APP Features & Accessability</a>
 					<a class="nav-link" id="feed-on-staff-list" data-toggle="pill" href="#feed-on-staff" role="tab" aria-controls="FeedbackOnStaff">Feedback on SVL Staff</a>
-					<a class="nav-link" id="online-services-list" data-toggle="pill" href="#online-services" role="tab" aria-controls="OnlineServices">Issues with Online Services</a>
-					<a class="nav-link" id="new-tie-up-list" data-toggle="pill" href="#new-tie-up" role="tab" aria-controls="NewTieUp">New Tie-up with SVL</a>
+					<a class="nav-link" id="online-services-list" data-toggle="pill" href="#online-services" role="tab" aria-controls="OnlineServices">Issues with Web Access</a>
+					<a class="nav-link" id="new-tie-up-list" data-toggle="pill" href="#new-tie-up" role="tab" aria-controls="NewTieUp">Corporate Tie-up with SVL</a>
 					<a class="nav-link" id="suggestions-on-ui-list" data-toggle="pill" href="#suggestions-on-ui" role="tab" aria-controls="SuggestionsOnUI">Suggestions on User Interface?</a>
 					<a class="nav-link" id="other-issue-list" data-toggle="pill" href="#other-issue" role="tab" aria-controls="OtherIssue">Any Other Issue</a>
 				</div>
@@ -892,38 +899,41 @@ Contact Us
 			<div class="col-sm-9">
 				<div class="tab-content" id="v-pills-tabContent">
 					<div class="tab-pane fade show active" id="feed-on-info" role="tabpanel" aria-labelledby="feed-on-info-list">
-						<h4 class="fweight-400 border-bottom pb-2 mb-3">Feedback on Information Provided By SVL</h4>
+						<h4 class="fweight-400 border-bottom pb-2 mb-3">Feedback on 5G-APP Features & Accessability</h4>
 						<p class="text-muted">Your feedback will help us improve</p>
 						<form>
-									<div class="form-group">
-											<input type="text" class="form-control" id="" placeholder="Select City Name*" value="">    
+							<div class="form-group">
+									<input type="text" class="form-control" id="" placeholder="Select City Name*" value="">    
+							</div>
+							<div class="form-group">
+									<input type="text" class="form-control" id="fbnamid" placeholder="Name*" value="">
+							</div>
+							<div class="form-group dt">
+								<div class="input-group">
+									<div class="input-group-prepend"><span class="input-group-text" id="">+91</span></div>
+									<input type="number" onkeypress="return isNumber(event,this.id)" class="form-control form-control-bdr-nn" maxlength="10" id="fbmobile" placeholder="Mobile Number*" value="">
+								</div>
+							</div>
+							<div class="form-group">
+								<input type="email" class="form-control" id="fbemail" placeholder="Email" value="">
+							</div>
+							<div class="form-group">
+								<textarea class="form-control" id="fbcomment" rows="4" placeholder="Message*"></textarea>
+							</div>
+							<div class="form-row justify-content-between align-items-center">
+								<div class="form-group col-sm-auto">
+									<span class="smltx tcon">* Marked Fields Mandatory</span>
+								</div>
+								<div class="form-group col-sm-3">
+									<img src="/assets/img/newCaptchaAnchor.gif" alt="" class="img-fluid">
+								</div>
+								<div class="form-group col-sm-auto">
+									<div class="text-right text-left-xs">
+										<button type="button" class="btn btn-primary btn-lg">Submit</button>
 									</div>
-									<div class="form-group">
-											<input type="text" class="form-control" id="fbnamid" placeholder="Name*" value="">
-									</div>
-									<div class="form-group dt">
-										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="">+91</span></div>
-											<input type="number" onkeypress="return isNumber(event,this.id)" class="form-control form-control-bdr-nn" maxlength="10" id="fbmobile" placeholder="Mobile Number*" value="">
-										</div>
-									</div>
-									<div class="form-group">
-										<input type="email" class="form-control" id="fbemail" placeholder="Email" value="">
-									</div>
-									<div class="form-group">
-										<textarea class="form-control" id="fbcomment" rows="4" placeholder="Message*"></textarea>
-									</div>
-									<div class="form-row justify-content-between align-items-center">
-										<div class="form-group col-sm-auto">
-											<span class="smltx tcon">* Marked Fields Mandatory</span>
-										</div>
-										<div class="form-group col-sm-auto">
-											<div class="text-right text-left-xs">
-													<button type="button" onclick="feedbackresult('Other Issues');" class="btn btn-primary btn-lg" id="feedBtnId"><span class="tcon">Submit</span> <span class="white_lodr" style="display:none;"></span></button>
-											</div>
-										</div>
-									</div>
-							</form>
+								</div>
+							</div>
+						</form>
 					</div>
 					<div class="tab-pane fade" id="feed-on-staff" role="tabpanel" aria-labelledby="feed-on-staff-list">
 						<h4 class="fweight-400 border-bottom pb-2 mb-3">Feedback on SVL Staff</h4>
@@ -960,7 +970,7 @@ Contact Us
 							</form>
 					</div>
 					<div class="tab-pane fade" id="online-services" role="tabpanel" aria-labelledby="online-services-list">
-						<h4 class="fweight-400 border-bottom pb-2 mb-3">Issues with Online Services</h4>
+						<h4 class="fweight-400 border-bottom pb-2 mb-3">Issues with Web Access</h4>
 						<p class="text-muted">Your feedback will help us improve</p>
 						<form>
 									<div class="form-group">
@@ -995,7 +1005,7 @@ Contact Us
 							</form>
 					</div>
 					<div class="tab-pane fade" id="new-tie-up" role="tabpanel" aria-labelledby="new-tie-up-list">
-						<h4 class="fweight-400 border-bottom pb-2 mb-3">New Tie-up with SVL</h4>
+						<h4 class="fweight-400 border-bottom pb-2 mb-3">Corporate Tie-up with SVL</h4>
 						<p class="text-muted">We are Happy to associate with you for Growing Together</p>
 						<form>
 							<div class="form-row">
@@ -1146,13 +1156,14 @@ Contact Us
 <!--
 Footer
 -->
-<a href="#" class="cd-top js-cd-top text-uppercase"><i class="fas fa-car"></i><br>Top</a>
+<a href="#" class="cd-top js-cd-top text-uppercase"><i class="fas fa-chevron-up"></i></a>
 <div w3-include-html="footer.html"></div>
 <!-- Optional JavaScript --> 
 <!-- jQuery first, then Popper.js, then Bootstrap JS --> 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> 
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> 
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.3.3/dist/js/uikit.min.js"></script>
 <script src="assets/js/animated-headlines.js"></script> 
 <script src="assets/js/back-to-top.js"></script>
 <script>document.getElementsByTagName("html")[0].className += " js";</script>
@@ -1162,33 +1173,34 @@ Footer
 </script>
 <script src="assets/js/mixitup.min.js"></script> 
 <script>
-		var mixer = mixitup('[data-ref~="mixitup-container"]', {
-				selectors: {
-						target: '[data-ref~="mixitup-target"]',
-						control: '[data-mixitup-control]'
-				}
-		});
+	var mixer = mixitup('[data-ref~="mixitup-container"]', {
+			selectors: {
+					target: '[data-ref~="mixitup-target"]',
+					control: '[data-mixitup-control]'
+			}
+	});
 </script> 
 <script src="assets/js/owl.carousel.min.js"></script> 
 <script>
 	$(document).ready(function(){
     $('.domains-carousel').owlCarousel({
-				margin:10,
-				nav:true,
-				dots:false,
-				loop:true,
-				autoplayHoverPause:true,
-				autoplayTimeout: 5000,
-				responsive:{
-						0:{
-								items:1
-						},
-						600:{
-								items:3
-						},
-						1000:{
-								items:5
-						}
+		margin:10,
+		nav:true,
+		dots:false,
+		loop:true,
+		autoplayHoverPause:true,
+		autoplayTimeout: 5000,
+		responsive:{
+			0:{
+				items:1,
+				nav:false
+			},
+			600:{
+					items:3
+			},
+			1000:{
+					items:5
+			}
         }
     })
 		// Testimonials Carousel
@@ -1223,7 +1235,7 @@ Footer
 			$(".navbar").removeClass("navbarFixed");
 		}   
 });
-</script> 
+</script>
 <script>
 	$(document).ready(function(){
 		$('.domain-link').hover(function(){

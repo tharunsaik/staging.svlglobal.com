@@ -1,286 +1,8 @@
-<!doctype html>
-<html lang="en">
-<head>
-<!-- Required meta tags -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.3/dist/css/uikit.min.css" />
-<link rel="stylesheet" href="assets/css/svl-global.css">
-<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
-<link rel="stylesheet" href="assets/css/animated-headlines.css">
-<link rel="stylesheet" href="assets/css/hover-min.css">
-<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-<link rel="stylesheet" href="assets/css/back-to-top.css">
-<link rel="stylesheet" href="assets/css/global.css">
-<link rel="stylesheet" href="assets/css/styles.css">
-<title>SVL Global</title>
-<link rel="icon" href="assets/img/fav.png" type="image/gif">
-</head>
-<body>
+<?php include 'header.php';?>
 <!--
-Sign Up Modal
--->
-<div class="modal fade" id="signUpModal" tabindex="-1" role="dialog" aria-labelledby="signUpModalLabel" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered" role="document">
-		<div class="modal-content">
-		  <div class="modal-header">
-			<h5 class="modal-title" id="signUpModalLabel">Sign Up</h5>
-			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-			  <span aria-hidden="true">&times;</span>
-			</button>
-		  </div>
-		  <div class="modal-body">
-			<nav class="nav justify-content-center social-login a-mx-2 my-2">
-				<a href="#" class="nav-link rounded-circle bg-facebook text-white"><i class="fab fa-facebook-f"></i></a>
-				<a href="#" class="nav-link rounded-circle bg-google text-white"><i class="fab fa-google"></i></a>
-				<a href="#" class="nav-link rounded-circle bg-grey-200"><i class="fab fa-apple"></i></a>
-				<a href="#" class="nav-link rounded-circle bg-amazon black"><i class="fab fa-amazon"></i></a>
-			</nav>
-			<p class="text-center text-muted">or Sign-Up with</p>
-			<form>
-				<div class="form-group">
-					<label for="" class="sr-only">Name</label>
-					<input type="text" class="form-control" id="" placeholder="Enter your Name">
-				</div>
-				<div class="form-group">
-					<label for="" class="sr-only">Enter Email or Phone Number</label>
-					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email or Phone Number">
-				</div>
-				<div class="form-group font-size-1">
-					<div class="form-check form-check-inline">
-						<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-						<label class="form-check-label text-muted" for="inlineCheckbox1">Tell me about SVL Updates</label>
-					</div>
-				</div>
-				<p class="font-size-2 text-muted">By signing up, I agree to SVL's <a href="#">Terms of Service, Privacy Policy, Guest Refund policy, and Host Guarantee Terms. Click Here</a></p>
-				<button type="submit" class="btn btn-primary btn-block">Send OTP</button>
-			</form>
-		  </div>
-			<div class="modal-footer text-center">
-				<p class="font-size-2">Already a SVL Member? <a href="#signup" data-toggle="modal" data-target="#signInModal" data-dismiss="modal">Sign-In</a></p>
-			</div>
-		</div>
-	</div>
-</div>
-<!--
-Sign In Modal
--->
-<div class="modal fade" id="signInModal" tabindex="-1" role="dialog" aria-labelledby="signInModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="signInModalLabel">Sign In</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <nav class="nav justify-content-center social-login a-mx-2 my-2">
-			<a href="#" class="nav-link rounded-circle bg-facebook text-white"><i class="fab fa-facebook-f"></i></a>
-			<a href="#" class="nav-link rounded-circle bg-google text-white"><i class="fab fa-google"></i></a>
-			<a href="#" class="nav-link rounded-circle bg-grey-200"><i class="fab fa-apple"></i></a>
-			<a href="#" class="nav-link rounded-circle bg-amazon black"><i class="fab fa-amazon"></i></a>
-		</nav>
-		<p class="text-center text-muted">or Sign-In with</p>
-		<form>
-			<div class="form-group">
-				<label for="" class="sr-only">Enter Email or Phone Number</label>
-				<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email or Phone Number">
-			</div>
-			<div class="form-group">
-				<label for="" class="sr-only">Password</label>
-				<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your Password">
-			</div>
-			<div class="form-group font-size-1">
-				<a href="#" class="float-right" data-toggle="modal" data-target="#forgotPassModal" data-dismiss="modal">Forgot password?</a>
-				<div class="form-check form-check-inline">
-					<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-					<label class="form-check-label" for="inlineCheckbox1">Remember me</label>
-				</div>
-			</div>
-			<a type="submit" class="btn btn-primary btn-block" href="http://myaccount.svlglobal.com/" target="_blank">Submit</a>
-		</form>
-      </div>
-			<div class="modal-footer text-center">
-				<p class="font-size-2">Don't have an account? <a href="#" data-toggle="modal" data-target="#signUpModal" data-dismiss="modal">Sign up</a></p>
-			</div>
-		</div>
-	</div>
-</div>
-<!--
-Forgot Password Modal
--->
-<div class="modal fade" id="forgotPassModal" tabindex="-1" role="dialog" aria-labelledby="forgotPassModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="forgotPassModalLabel">Forgot Password</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-				<form>
-					<div class="form-group">
-						<label for="" class="sr-only">Enter Email or Phone Number</label>
-						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email or Phone Number">
-					</div>
-					<button type="submit" class="btn btn-primary btn-block">Send OTP</button>
-				</form>
-      </div>
-			<div class="modal-footer text-center">
-				<p class="font-size-2">Already a SVL Member? <a href="#" data-toggle="modal" data-target="#signInModal" data-dismiss="modal">Sign-In</a></p>
-			</div>
-    </div>
-  </div>
-</div>
-<!--
-Map Share
--->
-<div class="modal fade" id="shareMapModal" tabindex="-1" role="dialog" aria-labelledby="shareMapModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="shareMapModalLabel">Sign In</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <nav class="nav justify-content-center social-login a-mx-2 my-2">
-					<a href="#" class="nav-link rounded-circle bg-facebook text-white"><i class="fab fa-facebook-f"></i></a>
-					<a href="#" class="nav-link rounded-circle bg-google text-white"><i class="fab fa-google"></i></a>
-					<a href="#" class="nav-link rounded-circle bg-grey-200"><i class="fab fa-apple"></i></a>
-					<a href="#" class="nav-link rounded-circle bg-amazon black"><i class="fab fa-amazon"></i></a>
-				</nav>
-				<p class="text-center text-muted">or Sign-In with</p>
-				<form>
-					<div class="form-group">
-						<label for="" class="sr-only">Enter Email or Phone Number</label>
-						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email or Phone Number">
-					</div>
-					<div class="form-group">
-						<label for="" class="sr-only">Password</label>
-						<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your Password">
-					</div>
-					<div class="form-group font-size-1">
-						<a href="#" class="float-right">Forgot password?</a>
-						<div class="form-check form-check-inline">
-							<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-							<label class="form-check-label" for="inlineCheckbox1">Remember me</label>
-						</div>
-					</div>
-					<a type="submit" class="btn btn-primary btn-block" href="dashboard.html">Submit</a>
-				</form>
-      </div>
-			<div class="modal-footer text-center">
-				<p class="font-size-2">Don't have an account? <a href="#">Sign up</a></p>
-			</div>
-    </div>
-  </div>
-</div>
-<!--
-Topbar
--->
-<section class="bg-black top-bar">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm">
-                <nav class="nav nav-divided justify-content-center justify-content-sm-start a-py-2 a-px-2 a-px-sm-4">
-					<a href="#mail-us" class="nav-link" rel="PageScroll2id" data-ps2id-offset="50"><i class="fas fa-envelope"></i> Email: info@svlglobal.com</a>
-					<a href="#contact-us" class="nav-link" rel="PageScroll2id" data-ps2id-offset="20"><i class="fas fa-map-marker-alt"></i> Contact Us</a>
-				</nav>
-            </div>
-            <div class="col-sm">
-                <nav class="nav nav-divided justify-content-center justify-content-sm-end a-py-2 a-px-4">
-					<a href="#" class="nav-link d-none d-sm-flex"><i class="fab fa-facebook-f"></i></a>
-					<a href="#" class="nav-link d-none d-sm-flex"><i class="fab fa-twitter"></i></a>
-					<a href="#" class="nav-link d-none d-sm-flex"><i class="fab fa-linkedin-in"></i></a>
-					<a href="#" class="nav-link d-none d-sm-flex"><i class="fab fa-instagram"></i></a>
-					<a href="#" class="nav-link d-none d-sm-flex"><i class="fab fa-youtube"></i></a>
-					<a href="http://blog.svlglobal.com/" target="_blank" class="nav-link">SVLG Blog</a>
-					<a href="#" class="nav-link" data-toggle="modal" data-target="#signUpModal">Sign-Up</a>
-					<a href="#" class="nav-link" data-toggle="modal" data-target="#signInModal">Sign-In</a>
-				</nav>
-            </div>
-        </div>
-    </div>
-</section>
-<!--
-Navbar
--->
-<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top" data-hover="dropdown">
-    <div class="container-fluid">
-		<a class="navbar-brand" href="http://staging.svlglobal.com/">
-			<img src="assets/img/svl-global-logo.svg" alt="" width="130px">
-		</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHome" aria-controls="navbarHome" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-        <div class="collapse navbar-collapse" id="navbarHome">
-            <div class="navbar-nav ml-auto align-items-sm-center">
-				<a class="nav-item nav-link" href="http://staging.svlglobal.com/"><i class="fas fa-home"></i></a>
-                <div class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown" data-hover="dropdown"> About </a>
-                    <div class="dropdown-menu animated flipInY " aria-labelledby="aboutDropdown">
-						<a class="dropdown-item" href="about.html#WhySVL">Why S V L</a>
-						<a class="dropdown-item" href="about.html#LifeSVL">Life @ S V L</a>
-						<a class="dropdown-item" href="about.html#OurCoreValues">Our Core Values</a>
-						<a class="dropdown-item" href="about.html#VisionMission">Vision &amp; Mission</a>
-						<a class="dropdown-item" href="about.html#KeyFactors">Key Factors</a>
-						<a class="dropdown-item" href="about.html#Quality">Quality</a>
-						<a class="dropdown-item" href="about.html#CSR">CSR</a>
-					</div>
-                </div>
-                <div class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Services </a>
-					<div class="dropdown-menu animated flipInY" aria-labelledby="servicesDropdown">
-						<a class="dropdown-item" href="services.html#T-Pilots">T-Pilots</a>
-						<a class="dropdown-item" href="services.html#CarCare">Car Care</a>
-						<a class="dropdown-item" href="services.html#RoadAssist">Road Assist</a>
-						<a class="dropdown-item" href="services.html#ProInsure">Pro Insure</a>
-						<a class="dropdown-item" href="services.html#PromoCare">Promo Care</a>
-						<a class="dropdown-item" href="services.html#TechnoLabs">Techno Labs</a>
-						<a class="dropdown-item" href="services.html#AppsInfo">Apps Info</a>
-					</div>
-                </div>
-                <div class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="visionDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Vision </a>
-					<div class="dropdown-menu animated flipInY" aria-labelledby="visionDropdown">
-						<a class="dropdown-item" href="vision.html">Global Vision</a>
-						<a class="dropdown-item" href="vision.html">Travel</a>
-						<a class="dropdown-item" href="vision.html">Transport</a>
-						<a class="dropdown-item" href="vision.html">Fleet Management</a>
-						<a class="dropdown-item" href="vision.html">Doorstep Services</a>
-						<a class="dropdown-item" href="vision.html">Fleet Insurance</a>
-						<a class="dropdown-item" href="vision.html">Branding Services</a>
-						<a class="dropdown-item" href="vision.html">Technology</a>
-						<a class="dropdown-item" href="vision.html">Vocational Courses</a>
-					</div>
-                </div>
-                <div class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="missionDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Mission </a>
-					<div class="dropdown-menu animated flipInY" aria-labelledby="missionDropdown">
-						<a class="dropdown-item" href="mission.html">Global Expansion</a>
-						<a class="dropdown-item" href="mission.html">Network</a>
-						<a class="dropdown-item" href="mission.html">Flexi Payments</a>
-						<a class="dropdown-item" href="mission.html">Transparency</a>
-						<a class="dropdown-item" href="mission.html">Reliability</a>
-						<a class="dropdown-item" href="mission.html">Safety &amp; Security</a>
-						<a class="dropdown-item" href="mission.html">Women Power</a>
-						<a class="dropdown-item" href="mission.html">Satisfaction</a>
-						<a class="dropdown-item" href="mission.html">Helping Hands</a>
-					</div>
-                </div>
-                <a class="nav-item ml-2" href="https://svl5g.app/" target="_blank"><img src="assets/img/svl-5g-app.svg" alt="" width="130px"></a>
-            </div>
-        </div>
-    </div>
-</nav><!--
 Main Banner
 -->
-<section id="IntroSection" class="p-0 position-relative height-900-responsive ie-height-800 bg-grad pattern-overlay-1 overflow-hidden">
+<section id="IntroSection" class="p-0 position-relative bg-grad pattern-overlay-1 overflow-hidden" uk-height-viewport="offset-top: true; offset-bottom: 11">
     <div class="container">
         <div class="row"> 
 			<!-- banner Content -->
@@ -310,15 +32,6 @@ Main Banner
             </div>
         </div>
     </div>
-    <svg width="100%" height="100%" vers
-         ion="1.1" xmlns="http://www.w3.org/2000/svg" class="wave">
-        <defs></defs>
-        <path id="wave-one" d=""/>
-    </svg>
-    <svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg" class="wave">
-        <defs></defs>
-        <path id="wave-two" d=""/>
-    </svg>
 </section>
 <!--
 Domains
@@ -341,13 +54,13 @@ Domains
 <!--
 About SVL Global
 -->
-<section id="AboutSection" class="py-5 min-vh-100">
+<section id="AboutSection" class="uk-section uk-section-default" uk-height-viewport="offset-top: true">
     <div class="container">
-        <div class="row">
-            <div class="col-sm">
-				<img src="assets/img/hero-2.png" alt="" class="img-fluid wow fadeInRight">
+        <div class="row align-items-center">
+            <div class="col-sm" uk-scrollspy="cls:uk-animation-slide-left; repeat: true">
+				<img src="assets/img/hero-2.png" alt="" class="img-fluid">
 			</div>
-            <div class="col-sm wow fadeIn">
+            <div class="col-sm" uk-scrollspy="cls:uk-animation-slide-right; repeat: true">
                 <h1 class="text-primary my-4">About <span class="text-warning">SVL Global</span></h1>
                 <p class="mb-5">AI &amp; ML Driven Custom-Application-Development Company having 5 products to ensure guaranteed Customer satisfaction.</p>
                 <ul class="list-unstyled">
@@ -375,7 +88,7 @@ Our Priorities
 				<div class="card bg-transparent border-0 text-center">
 					<img src="/assets/img/priorities-bg.png" class="card-img opacity-1 img-fluid w-75" alt="...">
 					<div class="card-img-overlay pt-5 mt-3">
-						<h2 class="card-title heading text-uppercase my-5 pt-5 position-relative">our priorities</h2>
+						<h1 class="card-title heading my-5 pt-5 position-relative">Our Priorities</h1>
 						<p class="card-text font-size-2 fweight-400 text-muted">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 					</div>
 				</div>
@@ -419,10 +132,10 @@ Services
     <div class="container">
         <div class="row">
             <div class="col-12 animated fadeIn">
-				<h2 class="heading text-uppercase text-center mb-5 position-relative">Portfolio</h2>
-				<p class=" text-center font-size-2 fweight-400 text-muted">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+				<h1 class="heading text-center mb-5 position-relative">Portfolio</h1>
+				<p class="font-size-4 mb-4"><em class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas natus doloremque eligendi aliquid distinctio eum pariatur obcaecati, adipisci. Sapiente esse rerum porro quas</em></p>
 							
-                <div class="btn-group my-5 d-flex justify-content-between services-ctrl flex-wrap" role="group" aria-label="ServicesFilter">
+                <div class="btn-group mb-5 d-flex justify-content-between services-ctrl flex-wrap" role="group" aria-label="ServicesFilter">
                     <button type="button" class="btn btn-outline-secondary rounded-0" data-mixitup-control data-filter="all">All Services</button>
                     <button type="button" class="btn btn-outline-secondary" data-mixitup-control data-filter=".T-Pilots">T-Pilots</button>
                     <button type="button" class="btn btn-outline-secondary" data-mixitup-control data-filter=".CarCare">Car Care</button>
@@ -719,7 +432,7 @@ Services
 <!--
 Download App
 -->
-<section id="DownloadAppSection" class="d-flex align-items-center py-5 bg-dark text-white" uk-height-viewport>
+<section id="DownloadAppSection" class="d-flex align-items-center py-5 bg-dark text-white" uk-height-viewport="offset-top: true">
 	<div class="container">
 		<div class="row align-items-center">
 			<div class="col-sm-5 order-sm-last" uk-scrollspy="cls:uk-animation-slide-bottom; repeat: true; delay: 500">
@@ -748,6 +461,20 @@ Download App
 								<p class="font-size-2 fweight-400 grey-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, corporis</p>
 							</div>
 						</div>
+						<div class="media mb-3">
+							<i class="fas fa-bullseye fa-2x mr-3 grey-400"></i>
+							<div class="media-body">
+								<h6 class="mt-0 fweight-400 grey-400">Time &amp; Cost Savings</h6>
+								<p class="font-size-2 fweight-400 grey-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, corporis</p>
+							</div>
+						</div>
+						<div class="media mb-3">
+							<i class="fas fa-bullseye fa-2x mr-3 grey-400"></i>
+							<div class="media-body">
+								<h6 class="mt-0 fweight-400 grey-400">One Clikc for All Services</h6>
+								<p class="font-size-2 fweight-400 grey-500">accusantium? Tempore itaque cupiditate recusandae facere amet optio, officia</p>
+							</div>
+						</div>
 					</div>
 					<div class="col-sm-6">
 						<div class="media mb-3">
@@ -757,28 +484,11 @@ Download App
 								<p class="font-size-2 fweight-400 grey-500">accusantium? Tempore itaque cupiditate recusandae facere amet optio, officia</p>
 							</div>
 						</div>
+						<div class="uk-card uk-card-default uk-card-body uk-card-small uk-width-1-2 mx-auto">
+							<img src="assets/img/qr.svg" alt="" class="img-fluid">
+						</div>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-sm-6">
-						<div class="media mb-3">
-							<i class="fas fa-bullseye fa-2x mr-3 grey-400"></i>
-							<div class="media-body">
-								<h6 class="mt-0 fweight-400 grey-400">Time &amp; Cost Savings</h6>
-								<p class="font-size-2 fweight-400 grey-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, corporis</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6">
-						<div class="media mb-3">
-							<i class="fas fa-bullseye fa-2x mr-3 grey-400"></i>
-							<div class="media-body">
-								<h6 class="mt-0 fweight-400 grey-400">One Clikc for All Services</h6>
-								<p class="font-size-2 fweight-400 grey-500">accusantium? Tempore itaque cupiditate recusandae facere amet optio, officia</p>
-							</div>
-						</div>
-					</div>
-				</div>	
 			</div>
 		</div>
 	</div>
@@ -786,95 +496,130 @@ Download App
 <!--
 Testimonials
 -->
-<section id="TestimonialsSection" class="min-vh-100 d-flex align-items-center py-5 testimonials bg-blue-50 position-relative">
-	<div class="container py-5">
-		<div class="row align-items-center">
-			<div class="col-sm-8">
-				<h2 class="heading text-uppercase text-center mb-5 position-relative">WHAT OUR CUSTOMER SAYS!</h2>
-				<div class="testimonials-carousel owl-carousel owl-theme">
-					<div class="item row align-items-center justify-content-center">
-						<div class="col-sm-2">
-							<img src="https://picsum.photos/150/150?random=1" alt="" class="rounded-circle img-fluid w-auto mx-auto">
-						</div>
-						<div class="col-sm">
-							<h6 class="text-primary">Person Name <small class="text-warning">Subtitle</small></h6>
-							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores nemo optio similique quidem ratione distinctio est sapiente aperiam accusamus consequatur officiis odio, ipsum ipsa earum aliquam sequi esse veniam blanditiis.</p>
-						</div>
-					</div>
-					<div class="item row align-items-center">
-						<div class="col-sm-2">
-							<img src="https://picsum.photos/150/150?random=1" alt="" class="rounded-circle img-fluid w-auto mx-auto">
-						</div>
-						<div class="col-sm">
-							<h6 class="text-primary">Person Name <small class="text-warning">Subtitle</small></h6>
-							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores nemo optio similique quidem ratione distinctio est sapiente aperiam accusamus consequatur officiis odio, ipsum ipsa earum aliquam sequi esse veniam blanditiis.</p>
-						</div>
-					</div>
-					<div class="item row align-items-center">
-						<div class="col-sm-2">
-							<img src="https://picsum.photos/150/150?random=2" alt="" class="rounded-circle img-fluid w-auto mx-auto">
-						</div>
-						<div class="col-sm">
-							<h6 class="text-primary">Person Name <small class="text-warning">Subtitle</small></h6>
-							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores nemo optio similique quidem ratione distinctio est sapiente aperiam accusamus consequatur officiis odio, ipsum ipsa earum aliquam sequi esse veniam blanditiis.</p>
-						</div>
-					</div>
-					<div class="item row align-items-center">
-						<div class="col-sm-2">
-							<img src="https://picsum.photos/150/150?random=3" alt="" class="rounded-circle img-fluid w-auto mx-auto">
-						</div>
-						<div class="col-sm">
-							<h6 class="text-primary">Person Name <small class="text-warning">Subtitle</small></h6>
-							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores nemo optio similique quidem ratione distinctio est sapiente aperiam accusamus consequatur officiis odio, ipsum ipsa earum aliquam sequi esse veniam blanditiis.</p>
-						</div>
-					</div>
-					<div class="item row align-items-center">
-						<div class="col-sm-2">
-							<img src="https://picsum.photos/150/150?random=4" alt="" class="rounded-circle img-fluid w-auto mx-auto">
-						</div>
-						<div class="col-sm">
-							<h6 class="text-primary">Person Name <small class="text-warning">Subtitle</small></h6>
-							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores nemo optio similique quidem ratione distinctio est sapiente aperiam accusamus consequatur officiis odio, ipsum ipsa earum aliquam sequi esse veniam blanditiis.</p>
-						</div>
-					</div>
-				</div>
-				<nav class="nav justify-content-center a-mx-2">
-					<a href="#" class="nav-item nav-link btn btn-primary shadow my-5 fweight-500">Reviews - Dashboard</a>
-					<a href="#" class="nav-item nav-link btn btn-warning shadow my-5 text-white fweight-500">Feedback</a>
-				</nav>
-			</div>
+<section id="FeedbackSection" class="uk-section uk-flex uk-flex-middle bg-blue-50 p-4 grey-700 text-justify uk-text-light testimonials-style-1" uk-height-viewport="offset-top: true">
+	<div class="container-fluid">
+	<h1 class="heading text-center mb-4 position-relative">Testimonials</h1>
+	<div class="uk-flex uk-flex-right uk-flex-middle">
+		<div class="mr-3 mb-3">
+			<span class="uk-text-bold"><i class="fas fa-user"></i> Reviews (1700):</span> 
+			<i class="fas fa-star text-warning"></i>
+			<i class="fas fa-star text-warning"></i>
+			<i class="fas fa-star text-warning"></i>
+			<i class="fas fa-star text-warning"></i>
+			<i class="fas fa-star text-warning"></i>						
 		</div>
+	</div>
+	<div uk-slider="sets: true" class="testimonials-1">
+		<div class="uk-position-relative uk-visible-toggle" tabindex="-1">
+			<ul class="uk-slider-items uk-child-width-1-3 text-center" uk-grid uk-height-match=".uk-card">
+				<li>
+					<div class="uk-card uk-card-default uk-card-body uk-card-small mx-3 my-2">
+						<img class="uk-border-circle" src="https://getuikit.com/docs/images/avatar.jpg" width="100" height="100" alt="Border circle">
+						<p class="pt-4"><em class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus dolor ea, molestias expedita ullam nobis, saepe itaque vitae quidem doloremque quae dolorum totam... <a class="uk-button uk-button-text text-primary uk-text-capitalize" href="#">Read More</a></em></p>
+						<h6 class="text-warning">Name</h6>
+						<p>Driver | Location</p>
+					</div>
+				</li>
+				<li>
+					<div class="uk-card uk-card-default uk-card-body uk-card-small mx-3 my-2">
+						<img class="uk-border-circle" src="https://getuikit.com/docs/images/avatar.jpg" width="100" height="100" alt="Border circle">
+						<p class="pt-4"><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus dolor ea, molestias expedita ullam nobis, saepe itaque vitae quidem doloremque quae dolorum totam.</i></p>
+						<h6 class="text-warning">Name</h6>
+						<p>Rider | Location</p>
+					</div>
+				</li>
+				<li>
+					<div class="uk-card uk-card-default uk-card-body uk-card-small mx-3 my-2">
+						<img class="uk-border-circle" src="https://getuikit.com/docs/images/avatar.jpg" width="100" height="100" alt="Border circle">
+						<p class="pt-4"><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus dolor ea, molestias expedita ullam nobis, saepe itaque vitae quidem doloremque quae dolorum totam.</i></p>
+						<h6 class="text-warning">Name</h6>
+						<p>Owner | Location</p>
+					</div>
+				</li>
+				<li>
+					<div class="uk-card uk-card-default uk-card-body uk-card-small mx-3 my-2">
+						<img class="uk-border-circle" src="https://getuikit.com/docs/images/avatar.jpg" width="100" height="100" alt="Border circle">
+						<p class="pt-4"><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus dolor ea, molestias expedita ullam nobis, saepe itaque vitae quidem doloremque quae dolorum totam.</i></p>
+						<h6 class="text-warning">Name</h6>
+						<p>Partner | Location</p>
+					</div>
+				</li>
+				<li>
+					<div class="uk-card uk-card-default uk-card-body uk-card-small mx-3 my-2">
+						<img class="uk-border-circle" src="https://getuikit.com/docs/images/avatar.jpg" width="100" height="100" alt="Border circle">
+						<p class="pt-4"><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus dolor ea, molestias expedita ullam nobis, saepe itaque vitae quidem doloremque quae dolorum totam.</i></p>
+						<h6 class="text-warning">Name</h6>
+						<p>Driver | Location</p>
+					</div>
+				</li>
+				<li>
+					<div class="uk-card uk-card-default uk-card-body uk-card-small mx-3 my-2">
+						<img class="uk-border-circle" src="https://getuikit.com/docs/images/avatar.jpg" width="100" height="100" alt="Border circle">
+						<p class="pt-4"><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus dolor ea, molestias expedita ullam nobis, saepe itaque vitae quidem doloremque quae dolorum totam.</i></p>
+						<h6 class="text-warning">Name</h6>
+						<p>Rider | Location</p>
+					</div>
+				</li>
+				<li>
+					<div class="uk-card uk-card-default uk-card-body uk-card-small mx-3 my-2">
+						<img class="uk-border-circle" src="https://getuikit.com/docs/images/avatar.jpg" width="100" height="100" alt="Border circle">
+						<p class="pt-4"><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus dolor ea, molestias expedita ullam nobis, saepe itaque vitae quidem doloremque quae dolorum totam.</i></p>
+						<h6 class="text-warning">Name</h6>
+						<p>Owner | Location</p>
+					</div>
+				</li>
+				<li>
+					<div class="uk-card uk-card-default uk-card-body uk-card-small mx-3 my-2">
+						<img class="uk-border-circle" src="https://getuikit.com/docs/images/avatar.jpg" width="100" height="100" alt="Border circle">
+						<p class="pt-4"><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus dolor ea, molestias expedita ullam nobis, saepe itaque vitae quidem doloremque quae dolorum totam.</i></p>
+						<h6 class="text-warning">Name</h6>
+						<p>Partner | Location</p>
+					</div>
+				</li>
+			</ul>
+
+		</div>
+		<ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+		<div class="uk-flex uk-flex-center uk-margin">
+			<a href="#" class="btn btn-primary shadow fweight-500 mr-3">Reviews - Dashboard</a>
+			<a href="#" class="btn btn-warning shadow text-white fweight-500">Feedback</a>
+		</div>
+	</div>
 	</div>
 </section>
 <!--
 Contact Us
 -->
 <section id="ContactSection" class="contact-us">
-	<header class="min-vh-100 d-flex align-items-center bg-light py-5" id="contact-us">
+	<header class="d-flex align-items-center bg-light py-5" id="contact-us" uk-height-viewport="offset-top: true">
 		<div class="container">
 			<div class="row">
 				<div class="col">
-					<h2 class="heading text-uppercase text-center mb-3 position-relative">Contact Us</h2>
+					<h1 class="heading text-center mb-3 position-relative">Contact Us</h1>
 				</div>
 			</div>
 			<div class="row py-4">
 				<div class="col-sm">
-					<div class="list-group list-group-flush mb-3">
-						<a href="#" class="list-group-item list-group-item-action">
-							<h5>Registered and Corporate Office</h5>
+					<div class="card rounded-8 border-0 shadow-2dp shadow-4dp-hover">
+						<div class="card-body">
+							<h5><a href="#" class="stretched-link">Registered and Corporate Office</a></h5>
 							<h6 class="text-muted my-3">SVL Global</h6>
 							<p class="text-muted font-size-2 mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente ea officiis necessitatibus commodi.</p>
-						</a>
-						<a href="#" class="list-group-item list-group-item-action">
-							<h5>Hyderabad</h5>
+						</div>
+					</div>
+					<div class="card rounded-8 border-0 shadow-2dp shadow-4dp-hover my-3">
+						<div class="card-body">
+							<h5><a href="#" class="stretched-link">Hyderabad</a></h5>
 							<h6 class="text-muted my-3">SVL Global</h6>
 							<p class="text-muted font-size-2 mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente ea officiis necessitatibus commodi.</p>
-						</a>
-						<a href="#" class="list-group-item list-group-item-action border-bottom">
-							<h5>Bangalore</h5>
+						</div>
+					</div>
+					<div class="card rounded-8 border-0 shadow-2dp shadow-4dp-hover">
+						<div class="card-body">
+							<h5><a href="#" class="stretched-link">Bangalore</a></h5>
 							<h6 class="text-muted my-3">SVL Global</h6>
 							<p class="text-muted font-size-2 mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente ea officiis necessitatibus commodi.</p>
-						</a>
+						</div>
 					</div>
 				</div>
 				<div class="col-sm position-relative">
@@ -884,8 +629,10 @@ Contact Us
 			</div>
 		</div>
 	</header>
-	<div class="container min-vh-100">
-		<div class="row pt-5" id="mail-us">
+	<div class="d-flex align-items-center" id="EmailSection" uk-height-viewport="offset-top: true">
+		<div class="container">
+		<h1 class="heading text-center mb-5 position-relative">Give Us Feedback</h1>
+		<div class="row" id="mail-us">
 			<div class="col-sm-3 hidden-xs">
 				<div class="nav flex-column nav-pills nav-fill contact-us-tabs mb-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
 					<a class="nav-link active" id="feed-on-info-list" data-toggle="pill" href="#feed-on-info" role="tab" aria-controls="FeedbackOnInfo" aria-selected="true">Feedback on 5G-APP Features & Accessability</a>
@@ -901,18 +648,34 @@ Contact Us
 					<div class="tab-pane fade show active" id="feed-on-info" role="tabpanel" aria-labelledby="feed-on-info-list">
 						<h4 class="fweight-400 border-bottom pb-2 mb-3">Feedback on 5G-APP Features & Accessability</h4>
 						<p class="text-muted">Your feedback will help us improve</p>
-						<form>
+						<form class="form-divider">
 							<div class="form-group">
-									<input type="text" class="form-control" id="" placeholder="Select City Name*" value="">    
+								<label class="mdc-text-field mdc-text-field--filled uk-width-1-1" data-mdc-auto-init="MDCTextField">
+									<span class="mdc-text-field__ripple"></span>
+									<input class="mdc-text-field__input" type="text" aria-labelledby="label">
+									<span id="label" class="mdc-floating-label">Select City Name*</span>
+									<span class="mdc-line-ripple"></span>
+								</label>
+							</div>
+							<div class="form-group" style="color:#E89400">
+								<input type="text" class="form-control" id="fbnamid" placeholder="Name*" value="">
 							</div>
 							<div class="form-group">
-									<input type="text" class="form-control" id="fbnamid" placeholder="Name*" value="">
-							</div>
-							<div class="form-group dt">
-								<div class="input-group">
-									<div class="input-group-prepend"><span class="input-group-text" id="">+91</span></div>
-									<input type="number" onkeypress="return isNumber(event,this.id)" class="form-control form-control-bdr-nn" maxlength="10" id="fbmobile" placeholder="Mobile Number*" value="">
+							<div class="uk-width-1-1">
+								<div class="uk-grid-small uk-child-width-expand" uk-grid>
+									<div class="uk-width-auto">
+										<select class="form-control">
+											<option selected disabled>+91</option>
+											<option>+92</option>
+											<option>+93</option>
+											<option>+94</option>
+										</select>
+									</div>
+									<div>
+										<input class="form-control" type="text" placeholder="Phone Number*">
+									</div>
 								</div>
+							</div>
 							</div>
 							<div class="form-group">
 								<input type="email" class="form-control" id="fbemail" placeholder="Email" value="">
@@ -929,7 +692,7 @@ Contact Us
 								</div>
 								<div class="form-group col-sm-auto">
 									<div class="text-right text-left-xs">
-										<button type="button" class="btn btn-primary btn-lg">Submit</button>
+										<button type="button" class="btn btn-primary btn-alt-bg">Submit</button>
 									</div>
 								</div>
 							</div>
@@ -938,7 +701,7 @@ Contact Us
 					<div class="tab-pane fade" id="feed-on-staff" role="tabpanel" aria-labelledby="feed-on-staff-list">
 						<h4 class="fweight-400 border-bottom pb-2 mb-3">Feedback on SVL Staff</h4>
 						<p class="text-muted">Your feedback will help us improve</p>
-						<form>
+						<form class="form-divider">
 									<div class="form-group">
 											<input type="text" class="form-control" id="" placeholder="Select City Name*" value="">    
 									</div>
@@ -946,9 +709,20 @@ Contact Us
 											<input type="text" class="form-control" id="fbnamid" placeholder="Name*" value="">
 									</div>
 									<div class="form-group dt">
-										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="">+91</span></div>
-											<input type="number" onkeypress="return isNumber(event,this.id)" class="form-control form-control-bdr-nn" maxlength="10" id="fbmobile" placeholder="Mobile Number*" value="">
+										<div class="uk-width-1-1">
+											<div class="uk-grid-small uk-child-width-expand" uk-grid>
+												<div class="uk-width-auto">
+													<select class="form-control">
+														<option selected disabled>+91</option>
+														<option>+92</option>
+														<option>+93</option>
+														<option>+94</option>
+													</select>
+												</div>
+												<div>
+													<input class="form-control" type="text" placeholder="Phone Number*">
+												</div>
+											</div>
 										</div>
 									</div>
 									<div class="form-group">
@@ -963,7 +737,9 @@ Contact Us
 										</div>
 										<div class="form-group col-sm-auto">
 											<div class="text-right text-left-xs">
-													<button type="button" onclick="feedbackresult('Other Issues');" class="btn btn-primary btn-lg" id="feedBtnId"><span class="tcon">Submit</span> <span class="white_lodr" style="display:none;"></span></button>
+												<button type="button" class="btn btn-primary btn-alt-bg" id="feedBtnId">
+													Submit
+												</button>
 											</div>
 										</div>
 									</div>
@@ -972,7 +748,7 @@ Contact Us
 					<div class="tab-pane fade" id="online-services" role="tabpanel" aria-labelledby="online-services-list">
 						<h4 class="fweight-400 border-bottom pb-2 mb-3">Issues with Web Access</h4>
 						<p class="text-muted">Your feedback will help us improve</p>
-						<form>
+						<form class="form-divider">
 									<div class="form-group">
 											<input type="text" class="form-control" id="" placeholder="Select City Name*" value="">    
 									</div>
@@ -980,9 +756,20 @@ Contact Us
 											<input type="text" class="form-control" id="fbnamid" placeholder="Name*" value="">
 									</div>
 									<div class="form-group dt">
-										<div class="input-group">
-											<div class="input-group-prepend"><span class="input-group-text" id="">+91</span></div>
-											<input type="number" onkeypress="return isNumber(event,this.id)" class="form-control form-control-bdr-nn" maxlength="10" id="fbmobile" placeholder="Mobile Number*" value="">
+										<div class="uk-width-1-1">
+											<div class="uk-grid-small uk-child-width-expand" uk-grid>
+												<div class="uk-width-auto">
+													<select class="form-control">
+														<option selected disabled>+91</option>
+														<option>+92</option>
+														<option>+93</option>
+														<option>+94</option>
+													</select>
+												</div>
+												<div>
+													<input class="form-control" type="text" placeholder="Phone Number*">
+												</div>
+											</div>
 										</div>
 									</div>
 									<div class="form-group">
@@ -997,7 +784,9 @@ Contact Us
 										</div>
 										<div class="form-group col-sm-auto">
 											<div class="text-right text-left-xs">
-													<button type="button" onclick="feedbackresult('Other Issues');" class="btn btn-primary btn-lg" id="feedBtnId"><span class="tcon">Submit</span> <span class="white_lodr" style="display:none;"></span></button>
+												<button type="button" class="btn btn-primary btn-alt-bg" id="">
+													Submit
+												</button>
 											</div>
 										</div>
 									</div>
@@ -1007,7 +796,7 @@ Contact Us
 					<div class="tab-pane fade" id="new-tie-up" role="tabpanel" aria-labelledby="new-tie-up-list">
 						<h4 class="fweight-400 border-bottom pb-2 mb-3">Corporate Tie-up with SVL</h4>
 						<p class="text-muted">We are Happy to associate with you for Growing Together</p>
-						<form>
+						<form class="form-divider">
 							<div class="form-row">
 								<div class="form-group col-sm-9">
 									<input type="text" class="form-control" placeholder="Company Name" value="">    
@@ -1034,11 +823,20 @@ Contact Us
 							</div>
 							<div class="form-row">
 								<div class="form-group col-sm">
-									<div class="input-group">
-										<div class="input-group-prepend">
-											<span class="input-group-text" id="">+91</span>
+									<div class="uk-width-1-1">
+										<div class="uk-grid-small uk-child-width-expand" uk-grid>
+											<div class="uk-width-auto">
+												<select class="form-control">
+													<option selected disabled>+91</option>
+													<option>+92</option>
+													<option>+93</option>
+													<option>+94</option>
+												</select>
+											</div>
+											<div>
+												<input class="form-control" type="text" placeholder="Phone Number*">
+											</div>
 										</div>
-										<input type="number" class="form-control" placeholder="Mobile Number*" value="">
 									</div>
 								</div>
 								<div class="form-group col-sm">
@@ -1072,7 +870,7 @@ Contact Us
 								</div>
 								<div class="form-group col-sm-auto">
 									<div class="text-right text-left-xs">
-										<button type="button" class="btn btn-primary btn-lg">Submit</button>
+										<button type="button" class="btn btn-primary btn-alt-bg" id="">Submit</button>
 									</div>
 								</div>
 							</div>
@@ -1082,7 +880,7 @@ Contact Us
 					<div class="tab-pane fade" id="suggestions-on-ui" role="tabpanel" aria-labelledby="suggestions-on-ui-list">
 						<h4 class="fweight-400 border-bottom pb-2 mb-3">Suggestions on User Interface?</h4>
 						<p class="text-muted">Your feedback will help us improve</p>
-						<form>
+						<form class="form-divider">
 							<div class="form-group">
 								<input type="text" class="form-control" id="" placeholder="URL*" value="" required>    
 							</div>
@@ -1108,7 +906,7 @@ Contact Us
 								</div>
 								<div class="form-group col-sm-auto">
 									<div class="text-right text-left-xs">
-										<button type="button" class="btn btn-primary btn-lg">Submit</button>
+										<button type="button" class="btn btn-primary btn-alt-bg" id="">Submit</button>
 									</div>
 								</div>
 							</div>
@@ -1117,7 +915,7 @@ Contact Us
 					<div class="tab-pane fade" id="other-issue" role="tabpanel" aria-labelledby="other-issue-list">
 						<h4 class="fweight-400 border-bottom pb-2 mb-3">Any other issue? </h4>
 						<p class="text-muted">Your feedback will help us improve</p>
-						<form>
+						<form class="form-divider">
 							<div class="form-group">
 								<input type="text" class="form-control" id="" placeholder="Select City Name*" value="">    
 							</div>
@@ -1125,9 +923,20 @@ Contact Us
 								<input type="text" class="form-control" id="fbnamid" placeholder="Name*" value="">
 							</div>
 							<div class="form-group dt">
-								<div class="input-group">
-									<div class="input-group-prepend"><span class="input-group-text" id="">+91</span></div>
-									<input type="number" onkeypress="return isNumber(event,this.id)" class="form-control form-control-bdr-nn" maxlength="10" id="fbmobile" placeholder="Mobile Number*" value="">
+								<div class="uk-width-1-1">
+									<div class="uk-grid-small uk-child-width-expand" uk-grid>
+										<div class="uk-width-auto">
+											<select class="form-control">
+												<option selected disabled>+91</option>
+												<option>+92</option>
+												<option>+93</option>
+												<option>+94</option>
+											</select>
+										</div>
+										<div>
+											<input class="form-control" type="text" placeholder="Phone Number*">
+										</div>
+									</div>
 								</div>
 							</div>
 							<div class="form-group">
@@ -1142,7 +951,7 @@ Contact Us
 								</div>
 								<div class="form-group col-sm-auto">
 									<div class="text-right text-left-xs">
-										<button type="button" class="btn btn-primary btn-lg">Submit</button>
+										<button type="button" class="btn btn-primary btn-alt-bg" id="">Submit</button>
 									</div>
 								</div>
 							</div>
@@ -1152,108 +961,12 @@ Contact Us
 			</div>
 		</div>
 	</div>
+	</div>
 </section>
 <!--
 Footer
 -->
-<a href="#" class="cd-top js-cd-top text-uppercase"><i class="fas fa-chevron-up"></i></a>
-<div w3-include-html="footer.html"></div>
-<!-- Optional JavaScript --> 
-<!-- jQuery first, then Popper.js, then Bootstrap JS --> 
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> 
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> 
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.3.3/dist/js/uikit.min.js"></script>
-<script src="assets/js/animated-headlines.js"></script> 
-<script src="assets/js/back-to-top.js"></script>
-<script>document.getElementsByTagName("html")[0].className += " js";</script>
-<script src="assets/js/wow.min.js"></script>
-<script>
-	new WOW().init();
+<?php include 'footer.php';?>
+<script type="text/javascript">
+  window.mdc.autoInit();
 </script>
-<script src="assets/js/mixitup.min.js"></script> 
-<script>
-	var mixer = mixitup('[data-ref~="mixitup-container"]', {
-			selectors: {
-					target: '[data-ref~="mixitup-target"]',
-					control: '[data-mixitup-control]'
-			}
-	});
-</script> 
-<script src="assets/js/owl.carousel.min.js"></script> 
-<script>
-	$(document).ready(function(){
-    $('.domains-carousel').owlCarousel({
-		margin:10,
-		nav:true,
-		dots:false,
-		loop:true,
-		autoplayHoverPause:true,
-		autoplayTimeout: 5000,
-		responsive:{
-			0:{
-				items:1,
-				nav:false
-			},
-			600:{
-					items:3
-			},
-			1000:{
-					items:5
-			}
-        }
-    })
-		// Testimonials Carousel
-		$('.testimonials-carousel').owlCarousel({
-				margin:10,
-				dots:true,
-				autoplay:true,
-				loop:true,
-				autoplayHoverPause:true,
-				autoplayTimeout: 2600,
-				responsive:{
-						0:{
-								items:1
-						},
-						600:{
-								items:1
-						},
-						1000:{
-								items:1
-						}
-        }
-    })
-	});
-</script> 
-<script>
-	$(window).scroll(function() {
-		if ($(".navbar").offset().top > 40) {
-			$(".navbar").addClass("shadow");
-			$(".navbar").addClass("navbarFixed");
-		} else {
-			$(".navbar").removeClass("shadow");
-			$(".navbar").removeClass("navbarFixed");
-		}   
-});
-</script>
-<script>
-	$(document).ready(function(){
-		$('.domain-link').hover(function(){
-				$(this).addClass('animated bounceIn');
-		});
-	});
-</script>
-<script src="assets/js/jquery.malihu.PageScroll2id.min.js"></script> 
-<script>
-(function($){
-	$(window).on("load",function(){
-		$("a[rel='PageScroll2id']").mPageScroll2id();
-	});
-})(jQuery);
-</script>
-<script src="https://www.w3schools.com/lib/w3.js"></script>
-<script>
-w3.includeHTML();
-</script>
-</body>
-</html>

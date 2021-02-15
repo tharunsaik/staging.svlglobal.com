@@ -611,7 +611,7 @@ Modal Backdrop
     height: 54px;
     vertical-align: top;
     width: 54px;
-    background-image: url(/assets/img/services.png);
+    background-image: url(../../assets/img/services.png);
     background-size: 54px 2266px;
 	margin: 0 auto;
 }
@@ -922,7 +922,7 @@ Side Navigation
 
 .pattern-overlay-2::before {
     content: "";
-    background: url("/assets/img/bredcrumb.png");
+    background: url("../../assets/img/bredcrumb.png");
     background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -1022,12 +1022,12 @@ Side Navigation
 	-moz-opacity: 0;
 	-khtml-opacity: 0;
 	opacity: 0;
-	background: url("/assets/img/hover-effect.png") no-repeat center, -moz-linear-gradient(150deg, rgba(6, 116, 237,.7) 0%, rgba(247, 148, 29,.7) 100%);
-	background: url("/assets/img/hover-effect.png") no-repeat center, -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(6, 116, 237,.6)), color-stop(100%, rgba(247, 148, 29,.6)));
-	background: url("/assets/img/hover-effect.png") no-repeat center, -webkit-linear-gradient(150deg, rgba(6, 116, 237,.7) 0%, rgba(247, 148, 29,.7) 100%);
-	background: url("/assets/img/hover-effect.png") no-repeat center, -o-linear-gradient(150deg, rgba(6, 116, 237,.7) 0%, rgba(247, 148, 29,.7) 100%);
-	background: url("/assets/img/hover-effect.png") no-repeat center, -ms-linear-gradient(150deg, rgba(6, 116, 237,.7) 0%, rgba(247, 148, 29,.7) 100%);
-	background: url("/assets/img/hover-effect.png") no-repeat center, linear-gradient(150deg, rgba(6, 116, 237,.7) 0%, rgba(247, 148, 29,.7) 100%);
+	background: url("../../assets/img/hover-effect.png") no-repeat center, -moz-linear-gradient(150deg, rgba(6, 116, 237,.7) 0%, rgba(247, 148, 29,.7) 100%);
+	background: url("../../assets/img/hover-effect.png") no-repeat center, -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(6, 116, 237,.6)), color-stop(100%, rgba(247, 148, 29,.6)));
+	background: url("../../assets/img/hover-effect.png") no-repeat center, -webkit-linear-gradient(150deg, rgba(6, 116, 237,.7) 0%, rgba(247, 148, 29,.7) 100%);
+	background: url("../../assets/img/hover-effect.png") no-repeat center, -o-linear-gradient(150deg, rgba(6, 116, 237,.7) 0%, rgba(247, 148, 29,.7) 100%);
+	background: url("../../assets/img/hover-effect.png") no-repeat center, -ms-linear-gradient(150deg, rgba(6, 116, 237,.7) 0%, rgba(247, 148, 29,.7) 100%);
+	background: url("../../assets/img/hover-effect.png") no-repeat center, linear-gradient(150deg, rgba(6, 116, 237,.7) 0%, rgba(247, 148, 29,.7) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color-one', endColorstr='$color-two',GradientType=1 );
 
 }
@@ -1228,7 +1228,7 @@ Testimonials
 */
 @media (min-width: 768px) {
 	.testimonials{
-		background: url("/assets/img/testimonial.svg") no-repeat center right;
+		background: url("../../assets/img/testimonial.svg") no-repeat center right;
 	}
 }
 .testimonials::before{
@@ -1274,7 +1274,7 @@ Contact US
   Footer
 ================*/
 #footer-1{
-	background:url("/assets/img/sky.png") no-repeat center 2rem;
+	background:url("../../assets/img/sky.png") no-repeat center 2rem;
 	padding-top: 8.3rem;
 	color: #000;
 	font-size: .8rem;
@@ -1305,14 +1305,14 @@ Contact US
     height: 167px;
     top: -9.5rem;
     left: -1.5rem;
-    background-image: url("/assets/img/balloon.png");
+    background-image: url("../../assets/img/balloon.png");
 }
 #footer-1 .footer-wrapper > .container:first-child::after {
     width: 241px;
     height: 184px;
     top: -8rem;
     right: 0;
-    background-image: url("/assets/img/island.png");
+    background-image: url("../../assets/img/island.png");
 }
 .footer-links .nav-link:hover, .footer-links-col .nav-link:hover{
   color: #e89400;
